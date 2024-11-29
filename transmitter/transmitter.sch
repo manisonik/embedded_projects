@@ -1,0 +1,2875 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small R4
+U 1 1 60191760
+P 1650 5550
+F 0 "R4" V 1600 5400 50  0000 C CNN
+F 1 "120R" V 1600 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1650 5550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 5550 50  0001 C CNN
+F 4 "RES SMD 120 OHM 5% 1/16W 0402" H 1650 5550 50  0001 C CNN "Description"
+F 5 "5%" H 1650 5550 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402120RJNED" H 1650 5550 50  0001 C CNN "Part Number"
+	1    1650 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 60192AD1
+P 1650 5700
+F 0 "R5" V 1600 5550 50  0000 C CNN
+F 1 "120R" V 1600 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1650 5700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 5700 50  0001 C CNN
+F 4 "RES SMD 120 OHM 5% 1/16W 0402" H 1650 5700 50  0001 C CNN "Description"
+F 5 "5%" H 1650 5700 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402120RJNED" H 1650 5700 50  0001 C CNN "Part Number"
+	1    1650 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 601938B7
+P 1950 5300
+F 0 "C13" V 2000 5400 50  0000 C CNN
+F 1 "10pF" V 2000 5150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1950 5300 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1950 5300 50  0001 C CNN
+F 4 "C1005C0G1H100D" H 1950 5300 50  0001 C CNN "Part Number"
+F 5 "0.05%" H 1950 5300 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 10PF 50V C0G 0402" H 1950 5300 50  0001 C CNN "Description"
+F 7 "50V" H 1950 5300 50  0001 C CNN "Voltage"
+	1    1950 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 5300 2150 5300
+Wire Wire Line
+	2150 5300 2150 5550
+Connection ~ 2150 5550
+Wire Wire Line
+	2150 5550 1750 5550
+$Comp
+L power:GND #PWR04
+U 1 1 6019707D
+P 1650 5300
+F 0 "#PWR04" H 1650 5050 50  0001 C CNN
+F 1 "GND" V 1655 5172 50  0000 R CNN
+F 2 "" H 1650 5300 50  0001 C CNN
+F 3 "" H 1650 5300 50  0001 C CNN
+	1    1650 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 5300 1650 5300
+Connection ~ 2350 5700
+Wire Wire Line
+	1750 5700 2350 5700
+Wire Wire Line
+	1650 5100 1850 5100
+$Comp
+L power:GND #PWR03
+U 1 1 60196672
+P 1650 5100
+F 0 "#PWR03" H 1650 4850 50  0001 C CNN
+F 1 "GND" V 1655 4972 50  0000 R CNN
+F 2 "" H 1650 5100 50  0001 C CNN
+F 3 "" H 1650 5100 50  0001 C CNN
+	1    1650 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 5100 2350 5700
+Wire Wire Line
+	2050 5100 2350 5100
+$Comp
+L Device:C_Small C12
+U 1 1 6019431A
+P 1950 5100
+F 0 "C12" V 1900 5000 50  0000 C CNN
+F 1 "10pF" V 1900 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1950 5100 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1950 5100 50  0001 C CNN
+F 4 "C1005C0G1H100D" H 1950 5100 50  0001 C CNN "Part Number"
+F 5 "0.05%" H 1950 5100 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 10PF 50V C0G 0402" H 1950 5100 50  0001 C CNN "Description"
+F 7 "50V" H 1950 5100 50  0001 C CNN "Voltage"
+	1    1950 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 6019A467
+P 1650 5850
+F 0 "R6" V 1600 5700 50  0000 C CNN
+F 1 "120R" V 1600 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1650 5850 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 1650 5850 50  0001 C CNN
+F 4 "RES SMD 120 OHM 5% 1/16W 0402" H 1650 5850 50  0001 C CNN "Description"
+F 5 "5%" H 1650 5850 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402120RJNED" H 1650 5850 50  0001 C CNN "Part Number"
+	1    1650 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 6019AEA5
+P 1950 4900
+F 0 "C11" V 1900 4800 50  0000 C CNN
+F 1 "10pF" V 1900 5050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1950 4900 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1950 4900 50  0001 C CNN
+F 4 "C1005C0G1H100D" H 1950 4900 50  0001 C CNN "Part Number"
+F 5 "0.05%" H 1950 4900 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 10PF 50V C0G 0402" H 1950 4900 50  0001 C CNN "Description"
+F 7 "50V" H 1950 4900 50  0001 C CNN "Voltage"
+	1    1950 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6019B8B2
+P 1650 4900
+F 0 "#PWR02" H 1650 4650 50  0001 C CNN
+F 1 "GND" V 1655 4772 50  0000 R CNN
+F 2 "" H 1650 4900 50  0001 C CNN
+F 3 "" H 1650 4900 50  0001 C CNN
+	1    1650 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 4900 1850 4900
+Text GLabel 1250 5550 0    50   Input ~ 0
+MAX2870_CLK
+Text GLabel 1250 5700 0    50   Input ~ 0
+MAX2870_DATA
+Text GLabel 1250 5850 0    50   Input ~ 0
+MAX2870_LE
+Wire Wire Line
+	1250 5550 1550 5550
+Wire Wire Line
+	1550 5700 1250 5700
+Wire Wire Line
+	1250 5850 1550 5850
+Text GLabel 1250 6000 0    50   Input ~ 0
+MAX2870_CE
+$Comp
+L power:GND #PWR015
+U 1 1 6019E24E
+P 3850 7200
+F 0 "#PWR015" H 3850 6950 50  0001 C CNN
+F 1 "GND" H 3855 7027 50  0000 C CNN
+F 2 "" H 3850 7200 50  0001 C CNN
+F 3 "" H 3850 7200 50  0001 C CNN
+	1    3850 7200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 5850
+Wire Wire Line
+	1750 5850 2550 5850
+Wire Wire Line
+	4000 7450 4000 7550
+Wire Wire Line
+	3700 7450 4000 7450
+Wire Wire Line
+	3700 7550 3700 7450
+$Comp
+L Device:C_Small C3
+U 1 1 601A9FA0
+P 4000 7650
+F 0 "C3" H 4050 7550 50  0000 C CNN
+F 1 "0.01uF" V 4100 7700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4000 7650 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 4000 7650 50  0001 C CNN
+F 4 "GRM155R71C103K" H 4000 7650 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 4000 7650 50  0001 C CNN "Description"
+F 6 "10%" H 4000 7650 50  0001 C CNN "Tolerance"
+F 7 "16V" H 4000 7650 50  0001 C CNN "Voltage"
+	1    4000 7650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 601A959C
+P 3700 7650
+F 0 "C1" H 3800 7550 50  0000 C CNN
+F 1 "100pF" V 3800 7700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 7650 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3700 7650 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 3700 7650 50  0001 C CNN "Part Number"
+F 5 "5%" H 3700 7650 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 3700 7650 50  0001 C CNN "Description"
+F 7 "50V" H 3700 7650 50  0001 C CNN "Voltage"
+	1    3700 7650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 4900 2550 5850
+Wire Wire Line
+	2050 4900 2550 4900
+$Comp
+L power:GND #PWR018
+U 1 1 601B3AF0
+P 4000 4950
+F 0 "#PWR018" H 4000 4700 50  0001 C CNN
+F 1 "GND" V 4000 4800 50  0000 R CNN
+F 2 "" H 4000 4950 50  0001 C CNN
+F 3 "" H 4000 4950 50  0001 C CNN
+	1    4000 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 601B6138
+P 4300 3550
+F 0 "C21" H 4200 3350 50  0000 C CNN
+F 1 "0.01uF" H 4150 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4300 3550 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 4300 3550 50  0001 C CNN
+F 4 "GRM155R71C103K" H 4300 3550 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 4300 3550 50  0001 C CNN "Description"
+F 6 "10%" H 4300 3550 50  0001 C CNN "Tolerance"
+F 7 "16V" H 4300 3550 50  0001 C CNN "Voltage"
+	1    4300 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 3650 4300 4950
+$Comp
+L power:GND #PWR019
+U 1 1 601D54BF
+P 4150 7200
+F 0 "#PWR019" H 4150 6950 50  0001 C CNN
+F 1 "GND" H 4155 7027 50  0000 C CNN
+F 2 "" H 4150 7200 50  0001 C CNN
+F 3 "" H 4150 7200 50  0001 C CNN
+	1    4150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 601F9174
+P 1850 6500
+F 0 "C6" H 1950 6400 50  0000 C CNN
+F 1 "100pF" H 2000 6600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 6500 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1850 6500 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 1850 6500 50  0001 C CNN "Part Number"
+F 5 "5%" H 1850 6500 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 1850 6500 50  0001 C CNN "Description"
+F 7 "50V" H 1850 6500 50  0001 C CNN "Voltage"
+	1    1850 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 601F95C9
+P 2200 6500
+F 0 "C8" H 2250 6400 50  0000 C CNN
+F 1 "0.01uF" H 2350 6600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 6500 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 2200 6500 50  0001 C CNN
+F 4 "GRM155R71C103K" H 2200 6500 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 2200 6500 50  0001 C CNN "Description"
+F 6 "10%" H 2200 6500 50  0001 C CNN "Tolerance"
+F 7 "16V" H 2200 6500 50  0001 C CNN "Voltage"
+	1    2200 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 6400 2200 6300
+Wire Wire Line
+	1850 6400 1850 6300
+Wire Wire Line
+	1850 6300 2200 6300
+Wire Wire Line
+	2200 6600 2200 6700
+Wire Wire Line
+	1850 6600 1850 6700
+Text GLabel 11500 2350 2    50   Input ~ 0
+VCC_PLL
+Text GLabel 3500 7450 0    50   Input ~ 0
+VCC_PLL
+Text GLabel 3450 4600 0    50   Input ~ 0
+VCC_PLL
+$Comp
+L Device:C_Small C14
+U 1 1 6020E40B
+P 3600 4400
+F 0 "C14" H 3700 4300 50  0000 C CNN
+F 1 "100pF" V 3500 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3600 4400 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3600 4400 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 3600 4400 50  0001 C CNN "Part Number"
+F 5 "5%" H 3600 4400 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 3600 4400 50  0001 C CNN "Description"
+F 7 "50V" H 3600 4400 50  0001 C CNN "Voltage"
+	1    3600 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 6020E9AF
+P 3850 4400
+F 0 "C15" H 3950 4300 50  0000 C CNN
+F 1 "0.01uF" V 3750 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3850 4400 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 3850 4400 50  0001 C CNN
+F 4 "GRM155R71C103K" H 3850 4400 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 3850 4400 50  0001 C CNN "Description"
+F 6 "10%" H 3850 4400 50  0001 C CNN "Tolerance"
+F 7 "16V" H 3850 4400 50  0001 C CNN "Voltage"
+	1    3850 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 4200 3850 4300
+Connection ~ 2200 6300
+Wire Wire Line
+	3600 4300 3600 4200
+Wire Wire Line
+	3600 4200 3850 4200
+Wire Wire Line
+	3850 4600 3850 4500
+Wire Wire Line
+	3600 4500 3600 4600
+$Comp
+L Timer_PLL:MAX2870 U2
+U 1 1 6018E9F9
+P 4400 6050
+F 0 "U2" V 4350 5950 47  0000 L CNN
+F 1 "MAX2870" V 4250 5900 47  0000 L CNN
+F 2 "Package_DFN_QFN:TQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias" H 4700 5000 47  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX2870.pdf" H 4700 5000 47  0001 C CNN
+F 4 "RF FRACT INTR N SYNTH VCO 32TQFN" H 4400 6050 50  0001 C CNN "Description"
+F 5 "MAX2870ETJ+" H 4400 6050 50  0001 C CNN "Part Number"
+	1    4400 6050
+	0    1    1    0   
+$EndComp
+Text GLabel 2950 6900 0    50   Input ~ 0
+VCC_PLL
+$Comp
+L power:GND #PWR012
+U 1 1 602146B1
+P 3500 6600
+F 0 "#PWR012" H 3500 6350 50  0001 C CNN
+F 1 "GND" V 3505 6472 50  0000 R CNN
+F 2 "" H 3500 6600 50  0001 C CNN
+F 3 "" H 3500 6600 50  0001 C CNN
+	1    3500 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 6021578B
+P 5500 5550
+F 0 "C27" V 5450 5400 50  0000 C CNN
+F 1 "1.0uF" V 5450 5750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 5550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C81A105KA12-01.pdf" H 5500 5550 50  0001 C CNN
+F 4 "GRM155C81A105K" H 5500 5550 50  0001 C CNN "Part Number"
+F 5 "10%" H 5500 5550 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 1UF 10V X6S 0402" H 5500 5550 50  0001 C CNN "Description"
+F 7 "10V" H 5500 5550 50  0001 C CNN "Voltage"
+	1    5500 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 60216763
+P 5500 5700
+F 0 "C28" V 5450 5550 50  0000 C CNN
+F 1 "1.0uF" V 5450 5900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 5700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C81A105KA12-01.pdf" H 5500 5700 50  0001 C CNN
+F 4 "GRM155C81A105K" H 5500 5700 50  0001 C CNN "Part Number"
+F 5 "10%" H 5500 5700 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 1UF 10V X6S 0402" H 5500 5700 50  0001 C CNN "Description"
+F 7 "10V" H 5500 5700 50  0001 C CNN "Voltage"
+	1    5500 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5550 5250 5550
+Wire Wire Line
+	5250 5700 5400 5700
+$Comp
+L power:GND #PWR031
+U 1 1 6021A382
+P 5850 5550
+F 0 "#PWR031" H 5850 5300 50  0001 C CNN
+F 1 "GND" V 5855 5422 50  0000 R CNN
+F 2 "" H 5850 5550 50  0001 C CNN
+F 3 "" H 5850 5550 50  0001 C CNN
+	1    5850 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 6021B172
+P 5850 5700
+F 0 "#PWR032" H 5850 5450 50  0001 C CNN
+F 1 "GND" V 5855 5572 50  0000 R CNN
+F 2 "" H 5850 5700 50  0001 C CNN
+F 3 "" H 5850 5700 50  0001 C CNN
+	1    5850 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 5550 5850 5550
+Wire Wire Line
+	5850 5700 5600 5700
+$Comp
+L Device:R_Small R29
+U 1 1 6021D60B
+P 5500 5850
+F 0 "R29" V 5450 5700 50  0000 C CNN
+F 1 "5.1k" V 5450 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5500 5850 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5500 5850 50  0001 C CNN
+F 4 "RES 5.1K OHM 1% 1/16W 0402" H 5500 5850 50  0001 C CNN "Description"
+F 5 "CRCW04025K10FKEDC" H 5500 5850 50  0001 C CNN "Part Number"
+F 6 "1%" H 5500 5850 50  0001 C CNN "Tolerance"
+	1    5500 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5850 5250 5850
+Wire Wire Line
+	5600 5850 5850 5850
+$Comp
+L power:GND #PWR033
+U 1 1 60220AB1
+P 5850 5850
+F 0 "#PWR033" H 5850 5600 50  0001 C CNN
+F 1 "GND" V 5855 5722 50  0000 R CNN
+F 2 "" H 5850 5850 50  0001 C CNN
+F 3 "" H 5850 5850 50  0001 C CNN
+	1    5850 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 60220E07
+P 5250 6000
+F 0 "#PWR026" H 5250 5750 50  0001 C CNN
+F 1 "GND" V 5255 5872 50  0000 R CNN
+F 2 "" H 5250 6000 50  0001 C CNN
+F 3 "" H 5250 6000 50  0001 C CNN
+	1    5250 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 6022171F
+P 5250 6450
+F 0 "#PWR027" H 5250 6200 50  0001 C CNN
+F 1 "GND" V 5255 6322 50  0000 R CNN
+F 2 "" H 5250 6450 50  0001 C CNN
+F 3 "" H 5250 6450 50  0001 C CNN
+	1    5250 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C29
+U 1 1 6022F742
+P 5500 6300
+F 0 "C29" V 5450 6150 50  0000 C CNN
+F 1 "1.0uF" V 5450 6500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 6300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C81A105KA12-01.pdf" H 5500 6300 50  0001 C CNN
+F 4 "GRM155C81A105K" H 5500 6300 50  0001 C CNN "Part Number"
+F 5 "10%" H 5500 6300 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 1UF 10V X6S 0402" H 5500 6300 50  0001 C CNN "Description"
+F 7 "10V" H 5500 6300 50  0001 C CNN "Voltage"
+	1    5500 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 6300 5250 6300
+$Comp
+L power:GND #PWR034
+U 1 1 60231581
+P 5850 6300
+F 0 "#PWR034" H 5850 6050 50  0001 C CNN
+F 1 "GND" V 5855 6172 50  0000 R CNN
+F 2 "" H 5850 6300 50  0001 C CNN
+F 3 "" H 5850 6300 50  0001 C CNN
+	1    5850 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 6300 5850 6300
+$Comp
+L Device:C_Small C17
+U 1 1 60233299
+P 4450 4000
+F 0 "C17" H 4350 3900 50  0000 C CNN
+F 1 "100pF" H 4300 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 4000 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4450 4000 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 4450 4000 50  0001 C CNN "Part Number"
+F 5 "5%" H 4450 4000 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 4450 4000 50  0001 C CNN "Description"
+F 7 "50V" H 4450 4000 50  0001 C CNN "Voltage"
+	1    4450 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 602339C9
+P 4800 4000
+F 0 "C18" H 4700 3900 50  0000 C CNN
+F 1 "0.01uF" H 4650 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4800 4000 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 4800 4000 50  0001 C CNN
+F 4 "GRM155R71C103K" H 4800 4000 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 4800 4000 50  0001 C CNN "Description"
+F 6 "10%" H 4800 4000 50  0001 C CNN "Tolerance"
+F 7 "16V" H 4800 4000 50  0001 C CNN "Voltage"
+	1    4800 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 3800 4800 3800
+Wire Wire Line
+	4800 3800 4800 3900
+Wire Wire Line
+	4450 4200 4450 4100
+Wire Wire Line
+	4800 4200 4800 4100
+Wire Wire Line
+	4950 3800 4800 3800
+Connection ~ 4800 3800
+Text GLabel 5000 4200 2    50   Input ~ 0
+VCC_PLL
+$Comp
+L power:GND #PWR020
+U 1 1 6023C2BC
+P 4600 4950
+F 0 "#PWR020" H 4600 4700 50  0001 C CNN
+F 1 "GND" H 4605 4777 50  0000 C CNN
+F 2 "" H 4600 4950 50  0001 C CNN
+F 3 "" H 4600 4950 50  0001 C CNN
+	1    4600 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 7200 4300 8300
+Wire Wire Line
+	4450 7200 4450 8500
+Wire Wire Line
+	4600 7200 4600 8500
+Wire Wire Line
+	4750 7200 4750 8300
+$Comp
+L Device:C_Small C22
+U 1 1 60244889
+P 4300 8700
+F 0 "C22" H 4350 8600 50  0000 C CNN
+F 1 "100pF" V 4350 8850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4300 8700 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4300 8700 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 4300 8700 50  0001 C CNN "Part Number"
+F 5 "5%" H 4300 8700 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 4300 8700 50  0001 C CNN "Description"
+F 7 "50V" H 4300 8700 50  0001 C CNN "Voltage"
+	1    4300 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 60245823
+P 4450 8700
+F 0 "C23" H 4500 8600 50  0000 C CNN
+F 1 "100pF" V 4500 8850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 8700 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4450 8700 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 4450 8700 50  0001 C CNN "Part Number"
+F 5 "5%" H 4450 8700 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 4450 8700 50  0001 C CNN "Description"
+F 7 "50V" H 4450 8700 50  0001 C CNN "Voltage"
+	1    4450 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 60245A51
+P 4600 8700
+F 0 "C24" H 4650 8600 50  0000 C CNN
+F 1 "100pF" V 4650 8850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 8700 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4600 8700 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 4600 8700 50  0001 C CNN "Part Number"
+F 5 "5%" H 4600 8700 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 4600 8700 50  0001 C CNN "Description"
+F 7 "50V" H 4600 8700 50  0001 C CNN "Voltage"
+	1    4600 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 60245BD8
+P 4750 8700
+F 0 "C25" H 4800 8600 50  0000 C CNN
+F 1 "100pF" V 4800 8850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 8700 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4750 8700 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 4750 8700 50  0001 C CNN "Part Number"
+F 5 "5%" H 4750 8700 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 4750 8700 50  0001 C CNN "Description"
+F 7 "50V" H 4750 8700 50  0001 C CNN "Voltage"
+	1    4750 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R23
+U 1 1 60246182
+P 5000 8500
+F 0 "R23" V 4950 8350 50  0000 C CNN
+F 1 "27nH" V 4950 8700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 5000 8500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0007.pdf" H 5000 8500 50  0001 C CNN
+F 4 "FIXED IND 27NH 70MA 3.1 OHM SMD" H 5000 8500 50  0001 C CNN "Description"
+F 5 "LQP15MN27NG02" H 5000 8500 50  0001 C CNN "Part Number"
+F 6 "2%" H 5000 8500 50  0001 C CNN "Tolerance"
+	1    5000 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R22
+U 1 1 602479D7
+P 5000 8300
+F 0 "R22" V 4950 8150 50  0000 C CNN
+F 1 "27nH" V 4950 8500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 5000 8300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0007.pdf" H 5000 8300 50  0001 C CNN
+F 4 "FIXED IND 27NH 70MA 3.1 OHM SMD" H 5000 8300 50  0001 C CNN "Description"
+F 5 "LQP15MN27NG02" H 5000 8300 50  0001 C CNN "Part Number"
+F 6 "2%" H 5000 8300 50  0001 C CNN "Tolerance"
+	1    5000 8300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 8300 4750 8300
+Connection ~ 4750 8300
+Wire Wire Line
+	4750 8300 4750 8600
+Wire Wire Line
+	4900 8500 4600 8500
+Connection ~ 4600 8500
+Wire Wire Line
+	4600 8500 4600 8600
+Wire Wire Line
+	5350 8300 5350 8500
+Wire Wire Line
+	5350 8500 5100 8500
+$Comp
+L Device:C_Small C26
+U 1 1 6024F6AA
+P 5350 8700
+F 0 "C26" H 5442 8746 50  0000 L CNN
+F 1 "0.01uF" H 5442 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5350 8700 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 5350 8700 50  0001 C CNN
+F 4 "GRM155R71C103K" H 5350 8700 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 5350 8700 50  0001 C CNN "Description"
+F 6 "10%" H 5350 8700 50  0001 C CNN "Tolerance"
+F 7 "16V" H 5350 8700 50  0001 C CNN "Voltage"
+	1    5350 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 60250EB8
+P 5350 8800
+F 0 "#PWR028" H 5350 8550 50  0001 C CNN
+F 1 "GND" H 5355 8627 50  0000 C CNN
+F 2 "" H 5350 8800 50  0001 C CNN
+F 3 "" H 5350 8800 50  0001 C CNN
+	1    5350 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 8600 5350 8500
+Connection ~ 5350 8500
+Text GLabel 5550 8300 2    50   Input ~ 0
+VCC_VCO
+Wire Wire Line
+	5100 8300 5350 8300
+Connection ~ 5350 8300
+Wire Wire Line
+	5350 8300 5550 8300
+$Comp
+L Device:R_Small R16
+U 1 1 60259DFA
+P 4000 8300
+F 0 "R16" V 3950 8150 50  0000 C CNN
+F 1 "27nH" V 3950 8500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4000 8300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0007.pdf" H 4000 8300 50  0001 C CNN
+F 4 "FIXED IND 27NH 70MA 3.1 OHM SMD" H 4000 8300 50  0001 C CNN "Description"
+F 5 "LQP15MN27NG02" H 4000 8300 50  0001 C CNN "Part Number"
+F 6 "2%" H 4000 8300 50  0001 C CNN "Tolerance"
+	1    4000 8300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 6025A71F
+P 4000 8500
+F 0 "R17" V 3950 8350 50  0000 C CNN
+F 1 "27nH" V 3950 8700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4000 8500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0007.pdf" H 4000 8500 50  0001 C CNN
+F 4 "FIXED IND 27NH 70MA 3.1 OHM SMD" H 4000 8500 50  0001 C CNN "Description"
+F 5 "LQP15MN27NG02" H 4000 8500 50  0001 C CNN "Part Number"
+F 6 "2%" H 4000 8500 50  0001 C CNN "Tolerance"
+	1    4000 8500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 8300 4300 8300
+Connection ~ 4300 8300
+Wire Wire Line
+	4300 8300 4300 8600
+Wire Wire Line
+	4100 8500 4450 8500
+Connection ~ 4450 8500
+Wire Wire Line
+	4450 8500 4450 8600
+Wire Wire Line
+	3900 8300 3650 8300
+Wire Wire Line
+	3650 8300 3650 8500
+Wire Wire Line
+	3650 8500 3900 8500
+$Comp
+L Device:C_Small C19
+U 1 1 60261E51
+P 3650 8700
+F 0 "C19" H 3742 8746 50  0000 L CNN
+F 1 "0.01uF" H 3742 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3650 8700 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 3650 8700 50  0001 C CNN
+F 4 "GRM155R71C103K" H 3650 8700 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 3650 8700 50  0001 C CNN "Description"
+F 6 "10%" H 3650 8700 50  0001 C CNN "Tolerance"
+F 7 "16V" H 3650 8700 50  0001 C CNN "Voltage"
+	1    3650 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6026274F
+P 3650 8850
+F 0 "#PWR013" H 3650 8600 50  0001 C CNN
+F 1 "GND" H 3655 8677 50  0000 C CNN
+F 2 "" H 3650 8850 50  0001 C CNN
+F 3 "" H 3650 8850 50  0001 C CNN
+	1    3650 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 8500 3650 8600
+Connection ~ 3650 8500
+Wire Wire Line
+	3650 8800 3650 8850
+$Comp
+L Device:R_Small R12
+U 1 1 60280A63
+P 3600 9350
+F 0 "R12" V 3404 9350 50  0000 C CNN
+F 1 "18R" V 3495 9350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 9350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3600 9350 50  0001 C CNN
+F 4 "RES SMD 18 OHM 1% 1/16W 0402" H 3600 9350 50  0001 C CNN "Description"
+F 5 "1%" H 3600 9350 50  0001 C CNN "Tolerance"
+F 6 "CRCW040218R0FKED" H 3600 9350 50  0001 C CNN "Part Number"
+	1    3600 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 602817FB
+P 3850 9550
+F 0 "R14" H 3791 9504 50  0000 R CNN
+F 1 "300R" H 3791 9595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3850 9550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 3850 9550 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 3850 9550 50  0001 C CNN "Description"
+F 5 "1%" H 3850 9550 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 3850 9550 50  0001 C CNN "Part Number"
+	1    3850 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 60281C46
+P 3300 9550
+F 0 "R9" H 3241 9504 50  0000 R CNN
+F 1 "300R" H 3241 9595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3300 9550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 3300 9550 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 3300 9550 50  0001 C CNN "Description"
+F 5 "1%" H 3300 9550 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 3300 9550 50  0001 C CNN "Part Number"
+	1    3300 9550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 9350 3300 9350
+Wire Wire Line
+	3300 9350 3300 9450
+Wire Wire Line
+	3700 9350 3850 9350
+Wire Wire Line
+	3850 9350 3850 9450
+$Comp
+L power:GND #PWR010
+U 1 1 60287565
+P 3300 9750
+F 0 "#PWR010" H 3300 9500 50  0001 C CNN
+F 1 "GND" H 3305 9577 50  0000 C CNN
+F 2 "" H 3300 9750 50  0001 C CNN
+F 3 "" H 3300 9750 50  0001 C CNN
+	1    3300 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 60287B57
+P 3850 9750
+F 0 "#PWR016" H 3850 9500 50  0001 C CNN
+F 1 "GND" H 3855 9577 50  0000 C CNN
+F 2 "" H 3850 9750 50  0001 C CNN
+F 3 "" H 3850 9750 50  0001 C CNN
+	1    3850 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 9650 3300 9750
+Wire Wire Line
+	3850 9750 3850 9650
+$Comp
+L Device:R_Small R13
+U 1 1 60291B3B
+P 3600 10250
+F 0 "R13" V 3404 10250 50  0000 C CNN
+F 1 "18R" V 3495 10250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 10250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3600 10250 50  0001 C CNN
+F 4 "RES SMD 18 OHM 1% 1/16W 0402" H 3600 10250 50  0001 C CNN "Description"
+F 5 "1%" H 3600 10250 50  0001 C CNN "Tolerance"
+F 6 "CRCW040218R0FKED" H 3600 10250 50  0001 C CNN "Part Number"
+	1    3600 10250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 60291B45
+P 3850 10450
+F 0 "R15" H 3791 10404 50  0000 R CNN
+F 1 "300R" H 3791 10495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3850 10450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 3850 10450 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 3850 10450 50  0001 C CNN "Description"
+F 5 "1%" H 3850 10450 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 3850 10450 50  0001 C CNN "Part Number"
+	1    3850 10450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 60291B4F
+P 3300 10450
+F 0 "R10" H 3241 10404 50  0000 R CNN
+F 1 "300R" H 3241 10495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3300 10450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 3300 10450 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 3300 10450 50  0001 C CNN "Description"
+F 5 "1%" H 3300 10450 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 3300 10450 50  0001 C CNN "Part Number"
+	1    3300 10450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 10250 3300 10250
+Wire Wire Line
+	3300 10250 3300 10350
+Wire Wire Line
+	3700 10250 3850 10250
+Wire Wire Line
+	3850 10250 3850 10350
+$Comp
+L power:GND #PWR011
+U 1 1 60291B5D
+P 3300 10650
+F 0 "#PWR011" H 3300 10400 50  0001 C CNN
+F 1 "GND" H 3305 10477 50  0000 C CNN
+F 2 "" H 3300 10650 50  0001 C CNN
+F 3 "" H 3300 10650 50  0001 C CNN
+	1    3300 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 60291B67
+P 3850 10650
+F 0 "#PWR017" H 3850 10400 50  0001 C CNN
+F 1 "GND" H 3855 10477 50  0000 C CNN
+F 2 "" H 3850 10650 50  0001 C CNN
+F 3 "" H 3850 10650 50  0001 C CNN
+	1    3850 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 10550 3300 10650
+Wire Wire Line
+	3850 10650 3850 10550
+$Comp
+L Device:R_Small R27
+U 1 1 6029CCED
+P 5400 9350
+F 0 "R27" V 5204 9350 50  0000 C CNN
+F 1 "18R" V 5295 9350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5400 9350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5400 9350 50  0001 C CNN
+F 4 "RES SMD 18 OHM 1% 1/16W 0402" H 5400 9350 50  0001 C CNN "Description"
+F 5 "1%" H 5400 9350 50  0001 C CNN "Tolerance"
+F 6 "CRCW040218R0FKED" H 5400 9350 50  0001 C CNN "Part Number"
+	1    5400 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R30
+U 1 1 6029CCF7
+P 5650 9550
+F 0 "R30" H 5591 9504 50  0000 R CNN
+F 1 "300R" H 5591 9595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5650 9550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5650 9550 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 5650 9550 50  0001 C CNN "Description"
+F 5 "1%" H 5650 9550 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 5650 9550 50  0001 C CNN "Part Number"
+	1    5650 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 6029CD01
+P 5100 9550
+F 0 "R24" H 5041 9504 50  0000 R CNN
+F 1 "300R" H 5041 9595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 9550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5100 9550 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 5100 9550 50  0001 C CNN "Description"
+F 5 "1%" H 5100 9550 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 5100 9550 50  0001 C CNN "Part Number"
+	1    5100 9550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 9350 5100 9350
+Wire Wire Line
+	5100 9350 5100 9450
+Wire Wire Line
+	5500 9350 5650 9350
+Wire Wire Line
+	5650 9350 5650 9450
+$Comp
+L power:GND #PWR021
+U 1 1 6029CD0F
+P 5100 9750
+F 0 "#PWR021" H 5100 9500 50  0001 C CNN
+F 1 "GND" H 5105 9577 50  0000 C CNN
+F 2 "" H 5100 9750 50  0001 C CNN
+F 3 "" H 5100 9750 50  0001 C CNN
+	1    5100 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 6029CD19
+P 5650 9750
+F 0 "#PWR029" H 5650 9500 50  0001 C CNN
+F 1 "GND" H 5655 9577 50  0000 C CNN
+F 2 "" H 5650 9750 50  0001 C CNN
+F 3 "" H 5650 9750 50  0001 C CNN
+	1    5650 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 9650 5100 9750
+Wire Wire Line
+	5650 9750 5650 9650
+$Comp
+L Device:R_Small R28
+U 1 1 6029CD25
+P 5400 10250
+F 0 "R28" V 5204 10250 50  0000 C CNN
+F 1 "18R" V 5295 10250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5400 10250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5400 10250 50  0001 C CNN
+F 4 "RES SMD 18 OHM 1% 1/16W 0402" H 5400 10250 50  0001 C CNN "Description"
+F 5 "1%" H 5400 10250 50  0001 C CNN "Tolerance"
+F 6 "CRCW040218R0FKED" H 5400 10250 50  0001 C CNN "Part Number"
+	1    5400 10250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R31
+U 1 1 6029CD2F
+P 5650 10450
+F 0 "R31" H 5591 10404 50  0000 R CNN
+F 1 "300R" H 5591 10495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5650 10450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5650 10450 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 5650 10450 50  0001 C CNN "Description"
+F 5 "1%" H 5650 10450 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 5650 10450 50  0001 C CNN "Part Number"
+	1    5650 10450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R25
+U 1 1 6029CD39
+P 5100 10450
+F 0 "R25" H 5041 10404 50  0000 R CNN
+F 1 "300R" H 5041 10495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 10450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5100 10450 50  0001 C CNN
+F 4 "RES 300 OHM 1% 1/16W 0402" H 5100 10450 50  0001 C CNN "Description"
+F 5 "1%" H 5100 10450 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402300RFKEDC" H 5100 10450 50  0001 C CNN "Part Number"
+	1    5100 10450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 10250 5100 10250
+Wire Wire Line
+	5100 10250 5100 10350
+Wire Wire Line
+	5500 10250 5650 10250
+Wire Wire Line
+	5650 10250 5650 10350
+$Comp
+L power:GND #PWR022
+U 1 1 6029CD47
+P 5100 10650
+F 0 "#PWR022" H 5100 10400 50  0001 C CNN
+F 1 "GND" H 5105 10477 50  0000 C CNN
+F 2 "" H 5100 10650 50  0001 C CNN
+F 3 "" H 5100 10650 50  0001 C CNN
+	1    5100 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 6029CD51
+P 5650 10650
+F 0 "#PWR030" H 5650 10400 50  0001 C CNN
+F 1 "GND" H 5655 10477 50  0000 C CNN
+F 2 "" H 5650 10650 50  0001 C CNN
+F 3 "" H 5650 10650 50  0001 C CNN
+	1    5650 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 10550 5100 10650
+Wire Wire Line
+	5650 10650 5650 10550
+Wire Wire Line
+	4300 8800 4300 9350
+Wire Wire Line
+	4300 9350 3850 9350
+Connection ~ 3850 9350
+Wire Wire Line
+	4450 8800 4450 10250
+Wire Wire Line
+	4450 10250 3850 10250
+Connection ~ 3850 10250
+Wire Wire Line
+	4600 8800 4600 10250
+Wire Wire Line
+	4600 10250 5100 10250
+Connection ~ 5100 10250
+Wire Wire Line
+	4750 8800 4750 9350
+Wire Wire Line
+	4750 9350 5100 9350
+Connection ~ 5100 9350
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 602B77E8
+P 6150 9350
+F 0 "J5" H 6250 9325 50  0000 L CNN
+F 1 "RFOUTBN" H 6250 9234 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6150 9350 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/132289.pdf" H 6150 9350 50  0001 C CNN
+F 4 "CONN SMA RCPT STR 50OHM EDGE MNT" H 6150 9350 50  0001 C CNN "Description"
+F 5 "132289" H 6150 9350 50  0001 C CNN "Part Number"
+	1    6150 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 602B9396
+P 6150 10250
+F 0 "J6" H 6250 10225 50  0000 L CNN
+F 1 "RFOUTBP" H 6250 10134 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6150 10250 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/132289.pdf" H 6150 10250 50  0001 C CNN
+F 4 "CONN SMA RCPT STR 50OHM EDGE MNT" H 6150 10250 50  0001 C CNN "Description"
+F 5 "132289" H 6150 10250 50  0001 C CNN "Part Number"
+	1    6150 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 9350 5950 9350
+Connection ~ 5650 9350
+Wire Wire Line
+	5950 10250 5650 10250
+Connection ~ 5650 10250
+$Comp
+L power:GND #PWR035
+U 1 1 602C2212
+P 6150 9550
+F 0 "#PWR035" H 6150 9300 50  0001 C CNN
+F 1 "GND" H 6155 9377 50  0000 C CNN
+F 2 "" H 6150 9550 50  0001 C CNN
+F 3 "" H 6150 9550 50  0001 C CNN
+	1    6150 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 602C2911
+P 6150 10450
+F 0 "#PWR036" H 6150 10200 50  0001 C CNN
+F 1 "GND" H 6155 10277 50  0000 C CNN
+F 2 "" H 6150 10450 50  0001 C CNN
+F 3 "" H 6150 10450 50  0001 C CNN
+	1    6150 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 602C8017
+P 2800 9350
+F 0 "J1" H 2728 9588 50  0000 C CNN
+F 1 "RFOUTAP" H 2728 9497 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2800 9350 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/132289.pdf" H 2800 9350 50  0001 C CNN
+F 4 "CONN SMA RCPT STR 50OHM EDGE MNT" H 2800 9350 50  0001 C CNN "Description"
+F 5 "132289" H 2800 9350 50  0001 C CNN "Part Number"
+	1    2800 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 602C99AF
+P 2800 10250
+F 0 "J2" H 2728 10488 50  0000 C CNN
+F 1 "RFOUTAN" H 2728 10397 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2800 10250 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/132289.pdf" H 2800 10250 50  0001 C CNN
+F 4 "CONN SMA RCPT STR 50OHM EDGE MNT" H 2800 10250 50  0001 C CNN "Description"
+F 5 "132289" H 2800 10250 50  0001 C CNN "Part Number"
+	1    2800 10250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 9350 3000 9350
+Connection ~ 3300 9350
+Wire Wire Line
+	3000 10250 3300 10250
+Connection ~ 3300 10250
+$Comp
+L power:GND #PWR07
+U 1 1 602D2BB8
+P 2800 9550
+F 0 "#PWR07" H 2800 9300 50  0001 C CNN
+F 1 "GND" H 2805 9377 50  0000 C CNN
+F 2 "" H 2800 9550 50  0001 C CNN
+F 3 "" H 2800 9550 50  0001 C CNN
+	1    2800 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 602D3554
+P 2800 10450
+F 0 "#PWR08" H 2800 10200 50  0001 C CNN
+F 1 "GND" H 2805 10277 50  0000 C CNN
+F 2 "" H 2800 10450 50  0001 C CNN
+F 3 "" H 2800 10450 50  0001 C CNN
+	1    2800 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MAX8559 U3
+U 1 1 60314EB9
+P 8700 2100
+F 0 "U3" H 8700 2815 50  0000 C CNN
+F 1 "MAX8559ETAAA" H 8700 2724 50  0000 C CNN
+F 2 "Package_DFN_QFN:TDFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.3mm" H 8700 2100 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX8559.pdf" H 8700 2100 50  0001 C CNN
+F 4 "IC REG LINEAR 1.8V/1.8V 8TDFN" H 8700 2100 50  0001 C CNN "Description"
+F 5 "MAX8559ETA22+T" H 8700 2100 50  0001 C CNN "Part Number"
+	1    8700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R34
+U 1 1 603171DE
+P 7850 1950
+F 0 "R34" V 7800 1800 50  0000 C CNN
+F 1 "10k" V 7800 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7850 1950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7850 1950 50  0001 C CNN
+F 4 "RES SMD 10K OHM 1% 1/16W 0402" V 7850 1950 50  0001 C CNN "Description"
+F 5 "1%" H 7850 1950 50  0001 C CNN "Tolerance"
+F 6 "CRCW040210K0FKED" H 7850 1950 50  0001 C CNN "Part Number"
+	1    7850 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1950 8300 1950
+$Comp
+L Device:R_Small R35
+U 1 1 6031D067
+P 7850 2150
+F 0 "R35" V 7800 2000 50  0000 C CNN
+F 1 "10k" V 7800 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7850 2150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7850 2150 50  0001 C CNN
+F 4 "RES SMD 10K OHM 1% 1/16W 0402" H 7850 2150 50  0001 C CNN "Description"
+F 5 "1%" H 7850 2150 50  0001 C CNN "Tolerance"
+F 6 "CRCW040210K0FKED" H 7850 2150 50  0001 C CNN "Part Number"
+	1    7850 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 2150 8300 2150
+Wire Wire Line
+	7750 2150 7550 2150
+Wire Wire Line
+	7750 1950 7550 1950
+Wire Wire Line
+	7550 1950 7550 2150
+Wire Wire Line
+	7550 2350 8300 2350
+Wire Wire Line
+	7550 2150 7550 2350
+Connection ~ 7550 2150
+Wire Wire Line
+	8300 1750 7550 1750
+Wire Wire Line
+	7550 1750 7550 1950
+Connection ~ 7550 1950
+$Comp
+L power:GND #PWR041
+U 1 1 6033DD4D
+P 8700 2650
+F 0 "#PWR041" H 8700 2400 50  0001 C CNN
+F 1 "GND" H 8705 2477 50  0000 C CNN
+F 2 "" H 8700 2650 50  0001 C CNN
+F 3 "" H 8700 2650 50  0001 C CNN
+	1    8700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C32
+U 1 1 6033F096
+P 9450 1950
+F 0 "C32" V 9350 1850 50  0000 C CNN
+F 1 "0.01uF" V 9350 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9450 1950 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 9450 1950 50  0001 C CNN
+F 4 "GRM155R71C103K" H 9450 1950 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 9450 1950 50  0001 C CNN "Description"
+F 6 "10%" H 9450 1950 50  0001 C CNN "Tolerance"
+F 7 "16V" H 9450 1950 50  0001 C CNN "Voltage"
+	1    9450 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 1950 9100 1950
+Wire Wire Line
+	9550 1950 9750 1950
+Wire Wire Line
+	9750 1950 9750 2050
+$Comp
+L power:GND #PWR044
+U 1 1 6034ABFA
+P 9750 2050
+F 0 "#PWR044" H 9750 1800 50  0001 C CNN
+F 1 "GND" H 9755 1877 50  0000 C CNN
+F 2 "" H 9750 2050 50  0001 C CNN
+F 3 "" H 9750 2050 50  0001 C CNN
+	1    9750 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2150 9400 2150
+Wire Wire Line
+	9400 2150 9400 2550
+$Comp
+L power:GND #PWR042
+U 1 1 603734C0
+P 9400 2550
+F 0 "#PWR042" H 9400 2300 50  0001 C CNN
+F 1 "GND" H 9405 2377 50  0000 C CNN
+F 2 "" H 9400 2550 50  0001 C CNN
+F 3 "" H 9400 2550 50  0001 C CNN
+	1    9400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2350 9750 2350
+Wire Wire Line
+	9750 2350 9750 2500
+$Comp
+L Device:C_Small C34
+U 1 1 60384234
+P 9750 2600
+F 0 "C34" H 9842 2646 50  0000 L CNN
+F 1 "2.2uF" H 9842 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 9750 2600 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 9750 2600 50  0001 C CNN
+F 4 "GRM033R61A225K" H 9750 2600 50  0001 C CNN "Part Number"
+F 5 "10%" H 9750 2600 50  0001 C CNN "Tolerance"
+F 6 "10V" H 9750 2600 50  0001 C CNN "Voltage"
+F 7 "CAP CER 2.2UF 10V X5R 0201" H 9750 2600 50  0001 C CNN "Description"
+	1    9750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 60385076
+P 9750 2800
+F 0 "#PWR045" H 9750 2550 50  0001 C CNN
+F 1 "GND" H 9755 2627 50  0000 C CNN
+F 2 "" H 9750 2800 50  0001 C CNN
+F 3 "" H 9750 2800 50  0001 C CNN
+	1    9750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2700 9750 2800
+Wire Wire Line
+	9750 2350 10300 2350
+Connection ~ 9750 2350
+$Comp
+L Device:R_Small R37
+U 1 1 6039141C
+P 10300 2600
+F 0 "R37" H 10359 2646 50  0000 L CNN
+F 1 "5.1k" H 10359 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10300 2600 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 10300 2600 50  0001 C CNN
+F 4 "RES 5.1K OHM 1% 1/16W 0402" H 10300 2600 50  0001 C CNN "Description"
+F 5 "CRCW04025K10FKEDC" H 10300 2600 50  0001 C CNN "Part Number"
+F 6 "1%" H 10300 2600 50  0001 C CNN "Tolerance"
+	1    10300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2350 10300 2500
+Wire Wire Line
+	10300 2700 10300 2800
+$Comp
+L Device:LED D3
+U 1 1 6039F15F
+P 10300 2950
+F 0 "D3" V 10339 2832 50  0000 R CNN
+F 1 "LED" V 10248 2832 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10300 2950 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 10300 2950 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0603 SMD" H 10300 2950 50  0001 C CNN "Description"
+F 5 "SML-D12P8WT86" H 10300 2950 50  0001 C CNN "Part Number"
+	1    10300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 603A03D5
+P 10300 3200
+F 0 "#PWR047" H 10300 2950 50  0001 C CNN
+F 1 "GND" H 10305 3027 50  0000 C CNN
+F 2 "" H 10300 3200 50  0001 C CNN
+F 3 "" H 10300 3200 50  0001 C CNN
+	1    10300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3100 10300 3200
+Connection ~ 10300 2350
+$Comp
+L Device:C_Small C38
+U 1 1 603AD3F0
+P 11200 2950
+F 0 "C38" H 11292 2996 50  0000 L CNN
+F 1 "0.1uF" H 11292 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11200 2950 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 11200 2950 50  0001 C CNN
+F 4 "GRM155R71E104K" H 11200 2950 50  0001 C CNN "Part Number"
+F 5 "CAP CER 0.1UF 25V X7R 0402" H 11200 2950 50  0001 C CNN "Description"
+F 6 "10%" H 11200 2950 50  0001 C CNN "Tolerance"
+F 7 "16V" H 11200 2950 50  0001 C CNN "Voltage"
+	1    11200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 603ACD4B
+P 10750 2950
+F 0 "C36" H 10842 2996 50  0000 L CNN
+F 1 "4.7uF" H 10842 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10750 2950 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 10750 2950 50  0001 C CNN
+F 4 "GRM219R61C475K" H 10750 2950 50  0001 C CNN "Part Number"
+F 5 "CAP CER 4.7UF 16V X5R 0805" H 10750 2950 50  0001 C CNN "Description"
+F 6 "10%" H 10750 2950 50  0001 C CNN "Tolerance"
+F 7 "16V" H 10750 2950 50  0001 C CNN "Voltage"
+	1    10750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3050 10750 3200
+$Comp
+L power:GND #PWR049
+U 1 1 603B3721
+P 10750 3200
+F 0 "#PWR049" H 10750 2950 50  0001 C CNN
+F 1 "GND" H 10755 3027 50  0000 C CNN
+F 2 "" H 10750 3200 50  0001 C CNN
+F 3 "" H 10750 3200 50  0001 C CNN
+	1    10750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 603CB613
+P 11200 3200
+F 0 "#PWR051" H 11200 2950 50  0001 C CNN
+F 1 "GND" H 11205 3027 50  0000 C CNN
+F 2 "" H 11200 3200 50  0001 C CNN
+F 3 "" H 11200 3200 50  0001 C CNN
+	1    11200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 3050 11200 3200
+Wire Wire Line
+	9700 850  9700 1000
+$Comp
+L Device:C_Small C33
+U 1 1 603EAB11
+P 9700 1100
+F 0 "C33" H 9792 1146 50  0000 L CNN
+F 1 "2.2uF" H 9792 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 9700 1100 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 9700 1100 50  0001 C CNN
+F 4 "GRM033R61A225K" H 9700 1100 50  0001 C CNN "Part Number"
+F 5 "10%" H 9700 1100 50  0001 C CNN "Tolerance"
+F 6 "10V" H 9700 1100 50  0001 C CNN "Voltage"
+F 7 "CAP CER 2.2UF 10V X5R 0201" H 9700 1100 50  0001 C CNN "Description"
+	1    9700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 603EAB17
+P 9700 1300
+F 0 "#PWR043" H 9700 1050 50  0001 C CNN
+F 1 "GND" H 9705 1127 50  0000 C CNN
+F 2 "" H 9700 1300 50  0001 C CNN
+F 3 "" H 9700 1300 50  0001 C CNN
+	1    9700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1200 9700 1300
+Wire Wire Line
+	9700 850  10250 850 
+$Comp
+L Device:R_Small R36
+U 1 1 603EAB20
+P 10250 1100
+F 0 "R36" H 10309 1146 50  0000 L CNN
+F 1 "5.1k" H 10309 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10250 1100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 10250 1100 50  0001 C CNN
+F 4 "RES 5.1K OHM 1% 1/16W 0402" H 10250 1100 50  0001 C CNN "Description"
+F 5 "CRCW04025K10FKEDC" H 10250 1100 50  0001 C CNN "Part Number"
+F 6 "1%" H 10250 1100 50  0001 C CNN "Tolerance"
+	1    10250 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 850  10250 1000
+Wire Wire Line
+	10250 1200 10250 1300
+$Comp
+L Device:LED D2
+U 1 1 603EAB28
+P 10250 1450
+F 0 "D2" V 10289 1332 50  0000 R CNN
+F 1 "LED" V 10198 1332 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10250 1450 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 10250 1450 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0603 SMD" H 10250 1450 50  0001 C CNN "Description"
+F 5 "SML-D12P8WT86" H 10250 1450 50  0001 C CNN "Part Number"
+	1    10250 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 603EAB2E
+P 10250 1700
+F 0 "#PWR046" H 10250 1450 50  0001 C CNN
+F 1 "GND" H 10255 1527 50  0000 C CNN
+F 2 "" H 10250 1700 50  0001 C CNN
+F 3 "" H 10250 1700 50  0001 C CNN
+	1    10250 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1600 10250 1700
+Connection ~ 10250 850 
+$Comp
+L Device:C_Small C37
+U 1 1 603EAB37
+P 11150 1450
+F 0 "C37" H 11242 1496 50  0000 L CNN
+F 1 "0.1uF" H 11242 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11150 1450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 11150 1450 50  0001 C CNN
+F 4 "GRM155R71E104K" H 11150 1450 50  0001 C CNN "Part Number"
+F 5 "CAP CER 0.1UF 25V X7R 0402" H 11150 1450 50  0001 C CNN "Description"
+F 6 "10%" H 11150 1450 50  0001 C CNN "Tolerance"
+F 7 "16V" H 11150 1450 50  0001 C CNN "Voltage"
+	1    11150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C35
+U 1 1 603EAB41
+P 10700 1450
+F 0 "C35" H 10792 1496 50  0000 L CNN
+F 1 "4.7uF" H 10792 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10700 1450 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 10700 1450 50  0001 C CNN
+F 4 "GRM219R61C475K" H 10700 1450 50  0001 C CNN "Part Number"
+F 5 "CAP CER 4.7UF 16V X5R 0805" H 10700 1450 50  0001 C CNN "Description"
+F 6 "10%" H 10700 1450 50  0001 C CNN "Tolerance"
+F 7 "16V" H 10700 1450 50  0001 C CNN "Voltage"
+	1    10700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 1550 10700 1700
+$Comp
+L power:GND #PWR048
+U 1 1 603EAB48
+P 10700 1700
+F 0 "#PWR048" H 10700 1450 50  0001 C CNN
+F 1 "GND" H 10705 1527 50  0000 C CNN
+F 2 "" H 10700 1700 50  0001 C CNN
+F 3 "" H 10700 1700 50  0001 C CNN
+	1    10700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR050
+U 1 1 603EAB4E
+P 11150 1700
+F 0 "#PWR050" H 11150 1450 50  0001 C CNN
+F 1 "GND" H 11155 1527 50  0000 C CNN
+F 2 "" H 11150 1700 50  0001 C CNN
+F 3 "" H 11150 1700 50  0001 C CNN
+	1    11150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 1550 11150 1700
+Wire Wire Line
+	9100 1750 9400 1750
+Wire Wire Line
+	9400 1750 9400 850 
+Wire Wire Line
+	9400 850  9700 850 
+Connection ~ 9700 850 
+$Comp
+L power:GND #PWR038
+U 1 1 604CD7CF
+P 6650 2100
+F 0 "#PWR038" H 6650 1850 50  0001 C CNN
+F 1 "GND" H 6655 1927 50  0000 C CNN
+F 2 "" H 6650 2100 50  0001 C CNN
+F 3 "" H 6650 2100 50  0001 C CNN
+	1    6650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2050 6650 2100
+$Comp
+L Device:C_Small C10
+U 1 1 605373CE
+P 2250 8350
+F 0 "C10" H 2158 8304 50  0000 R CNN
+F 1 "0.012uF" H 2158 8395 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2250 8350 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 2250 8350 50  0001 C CNN
+F 4 "GRM155R71C123K" H 2250 8350 50  0001 C CNN "Part Number"
+F 5 "CAP CER 100PF 50V C0G 0402" H 2250 8350 50  0001 C CNN "Description"
+F 6 "10%" H 2250 8350 50  0001 C CNN "Tolerance"
+F 7 "50V" H 2250 8350 50  0001 C CNN "Voltage"
+	1    2250 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 605386B3
+P 1750 8350
+F 0 "C5" H 1658 8304 50  0000 R CNN
+F 1 "0.1uF" H 1658 8395 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1750 8350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf" H 1750 8350 50  0001 C CNN
+F 4 "GRM155R71E104K" H 1750 8350 50  0001 C CNN "Part Number"
+F 5 "CAP CER 0.1UF 25V X7R 0402" H 1750 8350 50  0001 C CNN "Description"
+F 6 "10%" H 1750 8350 50  0001 C CNN "Tolerance"
+F 7 "16V" H 1750 8350 50  0001 C CNN "Voltage"
+	1    1750 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60538AA4
+P 1750 8800
+F 0 "R2" H 1809 8846 50  0000 L CNN
+F 1 "30.1R" H 1809 8755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 8800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 1750 8800 50  0001 C CNN
+F 4 "0402\\600WIND,30.1 Ohms,1%" H 1750 8800 50  0001 C CNN "Description"
+F 5 "1%" H 1750 8800 50  0001 C CNN "Tolerance"
+F 6 "CRCW040230R1FKTD" H 1750 8800 50  0001 C CNN "Part Number"
+	1    1750 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 605398E9
+P 1750 9250
+F 0 "R3" H 1809 9296 50  0000 L CNN
+F 1 "90.9R" H 1809 9205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 9250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 1750 9250 50  0001 C CNN
+F 4 "0402\\600WIND,90.9 Ohms,1%" H 1750 9250 50  0001 C CNN "Description"
+F 5 "1%" H 1750 9250 50  0001 C CNN "Tolerance"
+F 6 "CRCW040290R9FKEDC" H 1750 9250 50  0001 C CNN "Part Number"
+	1    1750 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 8450 1750 8700
+Wire Wire Line
+	1750 8900 1750 9000
+$Comp
+L power:GND #PWR01
+U 1 1 6054EB75
+P 1750 9350
+F 0 "#PWR01" H 1750 9100 50  0001 C CNN
+F 1 "GND" H 1755 9177 50  0000 C CNN
+F 2 "" H 1750 9350 50  0001 C CNN
+F 3 "" H 1750 9350 50  0001 C CNN
+	1    1750 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 8250 1750 8100
+Wire Wire Line
+	1750 8100 2250 8100
+Wire Wire Line
+	2250 8100 2250 8250
+Wire Wire Line
+	2250 8100 2450 8100
+Connection ~ 2250 8100
+$Comp
+L power:GND #PWR05
+U 1 1 605729E1
+P 2250 8600
+F 0 "#PWR05" H 2250 8350 50  0001 C CNN
+F 1 "GND" H 2255 8427 50  0000 C CNN
+F 2 "" H 2250 8600 50  0001 C CNN
+F 3 "" H 2250 8600 50  0001 C CNN
+	1    2250 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 8450 2250 8600
+$Comp
+L Device:C_Small C16
+U 1 1 6057E52A
+P 3100 8350
+F 0 "C16" H 3008 8304 50  0000 R CNN
+F 1 "820pF" H 3008 8395 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3100 8350 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 3100 8350 50  0001 C CNN
+F 4 "GRM155R71H821K" H 3100 8350 50  0001 C CNN "Part Number"
+F 5 "CAP CER 820PF 50V X7R 0402" H 3100 8350 50  0001 C CNN "Description"
+F 6 "10%" H 3100 8350 50  0001 C CNN "Tolerance"
+F 7 "50V" H 3100 8350 50  0001 C CNN "Voltage"
+	1    3100 8350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 8100 3100 8100
+Wire Wire Line
+	3100 8100 3100 8250
+$Comp
+L power:GND #PWR09
+U 1 1 6058A4D5
+P 3100 8600
+F 0 "#PWR09" H 3100 8350 50  0001 C CNN
+F 1 "GND" H 3105 8427 50  0000 C CNN
+F 2 "" H 3100 8600 50  0001 C CNN
+F 3 "" H 3100 8600 50  0001 C CNN
+	1    3100 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 8450 3100 8600
+Wire Wire Line
+	3100 8100 6350 8100
+Connection ~ 3100 8100
+Wire Wire Line
+	1750 9000 1300 9000
+Connection ~ 1750 9000
+Wire Wire Line
+	1750 9000 1750 9150
+Wire Wire Line
+	3500 6450 2450 6450
+Connection ~ 2450 8100
+Wire Wire Line
+	2450 8100 2600 8100
+$Comp
+L 74xx:74LV07A U1
+U 4 1 605DB175
+P 1700 4400
+F 0 "U1" H 1750 4717 50  0000 C CNN
+F 1 "SN74LV07ADR" H 1750 4626 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1700 4200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07A.pdf" H 1700 4400 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V 14SOIC" H 1700 4400 50  0001 C CNN "Description"
+F 5 "SN74LV07ADR" H 1700 4400 50  0001 C CNN "Part Number"
+	4    1700 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 4400 0    50   Input ~ 0
+PHASE_ADJ
+Wire Wire Line
+	1200 4400 1350 4400
+$Comp
+L Device:R_Small R7
+U 1 1 605EBC7F
+P 2400 4400
+F 0 "R7" V 2350 4250 50  0000 C CNN
+F 1 "open" V 2350 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2400 4400 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 2400 4400 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/16W 0402" H 2400 4400 50  0001 C CNN "Description"
+F 5 "CRCW04020000ZSTD" H 2400 4400 50  0001 C CNN "Part Number"
+F 6 "1%" H 2400 4400 50  0001 C CNN "Tolerance"
+	1    2400 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 4400 2300 4400
+$Comp
+L 74xx:74LV07A U1
+U 2 1 605FA9AD
+P 2700 3700
+F 0 "U1" H 2750 3383 50  0000 C CNN
+F 1 "SN74LV07ADR" H 2750 3474 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2700 3500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07A.pdf" H 2700 3700 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V 14SOIC" H 2700 3700 50  0001 C CNN "Description"
+F 5 "SN74LV07ADR" H 2700 3700 50  0001 C CNN "Part Number"
+	2    2700 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2950 3700 3100 3700
+Wire Wire Line
+	3100 4400 2500 4400
+$Comp
+L Device:R_Small R1
+U 1 1 6060ADAE
+P 1700 3350
+F 0 "R1" H 1759 3396 50  0000 L CNN
+F 1 "5.1K" H 1759 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1700 3350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 1700 3350 50  0001 C CNN
+F 4 "RES 5.1K OHM 1% 1/16W 0402" H 1700 3350 50  0001 C CNN "Description"
+F 5 "CRCW04025K10FKEDC" H 1700 3350 50  0001 C CNN "Part Number"
+F 6 "1%" H 1700 3350 50  0001 C CNN "Tolerance"
+	1    1700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3700 1700 3700
+Wire Wire Line
+	1700 3700 1700 3450
+Text GLabel 1700 3050 1    50   Input ~ 0
+VCC_PLL
+Wire Wire Line
+	1700 3050 1700 3250
+Text GLabel 1200 3700 0    50   Input ~ 0
+MAX2870_MUX
+Wire Wire Line
+	1200 3700 1700 3700
+Connection ~ 1700 3700
+Wire Wire Line
+	4150 4950 4150 4100
+Wire Wire Line
+	4150 3700 3550 3700
+Connection ~ 3100 3700
+Wire Wire Line
+	3100 3700 3100 4400
+$Comp
+L Device:R_Small R11
+U 1 1 6067A784
+P 3550 3350
+F 0 "R11" H 3609 3396 50  0000 L CNN
+F 1 "open" H 3609 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3550 3350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 3550 3350 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/16W 0402" H 3550 3350 50  0001 C CNN "Description"
+F 5 "CRCW04020000ZSTD" H 3550 3350 50  0001 C CNN "Part Number"
+F 6 "1%" H 3550 3350 50  0001 C CNN "Tolerance"
+	1    3550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3450 3550 3700
+Connection ~ 3550 3700
+Wire Wire Line
+	3550 3700 3100 3700
+Text GLabel 3550 3050 1    50   Input ~ 0
+VCC_PLL
+Wire Wire Line
+	3550 3050 3550 3250
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 6069A60F
+P 4150 1650
+F 0 "J3" V 4300 1600 50  0000 L CNN
+F 1 "MUXOUT" H 4000 1800 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4150 1650 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/132289.pdf" H 4150 1650 50  0001 C CNN
+F 4 "CONN SMA RCPT STR 50OHM EDGE MNT" H 4150 1650 50  0001 C CNN "Description"
+F 5 "132289" H 4150 1650 50  0001 C CNN "Part Number"
+	1    4150 1650
+	0    1    -1   0   
+$EndComp
+Connection ~ 4150 3700
+$Comp
+L power:GND #PWR014
+U 1 1 606AB94E
+P 3850 1650
+F 0 "#PWR014" H 3850 1400 50  0001 C CNN
+F 1 "GND" V 3855 1522 50  0000 R CNN
+F 2 "" H 3850 1650 50  0001 C CNN
+F 3 "" H 3850 1650 50  0001 C CNN
+	1    3850 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 1650 3950 1650
+$Comp
+L Device:R_Small R18
+U 1 1 606BC4D1
+P 4750 2950
+F 0 "R18" H 4809 2996 50  0000 L CNN
+F 1 "0R" H 4809 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4750 2950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 4750 2950 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/16W 0402" H 4750 2950 50  0001 C CNN "Description"
+F 5 "CRCW04020000ZSTD" H 4750 2950 50  0001 C CNN "Part Number"
+F 6 "1%" H 4750 2950 50  0001 C CNN "Tolerance"
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R21
+U 1 1 606BD94D
+P 5000 3250
+F 0 "R21" V 4900 3250 50  0000 C CNN
+F 1 "open" V 5100 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5000 3250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 5000 3250 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/16W 0402" H 5000 3250 50  0001 C CNN "Description"
+F 5 "CRCW04020000ZSTD" H 5000 3250 50  0001 C CNN "Part Number"
+F 6 "1%" H 5000 3250 50  0001 C CNN "Tolerance"
+	1    5000 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R20
+U 1 1 606BE04E
+P 5000 2650
+F 0 "R20" V 4900 2650 50  0000 C CNN
+F 1 "open" V 5100 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5000 2650 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 5000 2650 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/16W 0402" H 5000 2650 50  0001 C CNN "Description"
+F 5 "CRCW04020000ZSTD" H 5000 2650 50  0001 C CNN "Part Number"
+F 6 "1%" H 5000 2650 50  0001 C CNN "Tolerance"
+	1    5000 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2850 4750 2650
+Wire Wire Line
+	4750 2650 4900 2650
+Wire Wire Line
+	4750 3050 4750 3250
+Wire Wire Line
+	4750 3250 4900 3250
+$Comp
+L power:GND #PWR024
+U 1 1 606DE967
+P 5150 2650
+F 0 "#PWR024" H 5150 2400 50  0001 C CNN
+F 1 "GND" V 5155 2522 50  0000 R CNN
+F 2 "" H 5150 2650 50  0001 C CNN
+F 3 "" H 5150 2650 50  0001 C CNN
+	1    5150 2650
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 606DF739
+P 5150 3250
+F 0 "#PWR025" H 5150 3000 50  0001 C CNN
+F 1 "GND" V 5155 3122 50  0000 R CNN
+F 2 "" H 5150 3250 50  0001 C CNN
+F 3 "" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 2650 5150 2650
+Wire Wire Line
+	5100 3250 5150 3250
+Wire Wire Line
+	4300 3450 4300 3250
+Wire Wire Line
+	4300 3250 4750 3250
+Connection ~ 4750 3250
+$Comp
+L Device:C_Small C20
+U 1 1 60710EE9
+P 4300 2950
+F 0 "C20" H 4392 2996 50  0000 L CNN
+F 1 "open" H 4392 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4300 2950 50  0001 C CNN
+F 3 "~" H 4300 2950 50  0001 C CNN
+	1    4300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3050 4300 3250
+Connection ~ 4300 3250
+Wire Wire Line
+	4300 2850 4300 2650
+Wire Wire Line
+	4300 2650 4750 2650
+Connection ~ 4750 2650
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 60748DF8
+P 4750 1650
+F 0 "J4" V 4900 1600 50  0000 L CNN
+F 1 "REFIN" H 4600 1800 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4750 1650 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/132289.pdf" H 4750 1650 50  0001 C CNN
+F 4 "CONN SMA RCPT STR 50OHM EDGE MNT" H 4750 1650 50  0001 C CNN "Description"
+F 5 "132289" H 4750 1650 50  0001 C CNN "Part Number"
+	1    4750 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 1850 4750 2200
+Connection ~ 4750 2200
+Wire Wire Line
+	4750 2200 4750 2650
+Wire Wire Line
+	4900 2200 4750 2200
+$Comp
+L Device:R_Small R19
+U 1 1 6075C65F
+P 5000 2200
+F 0 "R19" V 4900 2200 50  0000 C CNN
+F 1 "open" V 5100 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5000 2200 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 5000 2200 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/16W 0402" H 5000 2200 50  0001 C CNN "Description"
+F 5 "CRCW04020000ZSTD" H 5000 2200 50  0001 C CNN "Part Number"
+F 6 "1%" H 5000 2200 50  0001 C CNN "Tolerance"
+	1    5000 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 60791427
+P 5150 2200
+F 0 "#PWR023" H 5150 1950 50  0001 C CNN
+F 1 "GND" V 5155 2072 50  0000 R CNN
+F 2 "" H 5150 2200 50  0001 C CNN
+F 3 "" H 5150 2200 50  0001 C CNN
+	1    5150 2200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5150 2200 5100 2200
+$Comp
+L 74xx:74LV07A U1
+U 1 1 60820A37
+P 6550 4250
+F 0 "U1" V 6646 4070 50  0000 R CNN
+F 1 "SN74LV07ADR" V 6555 4070 50  0000 R CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6550 4050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07A.pdf" H 6550 4250 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V 14SOIC" H 6550 4250 50  0001 C CNN "Description"
+F 5 "SN74LV07ADR" H 6550 4250 50  0001 C CNN "Part Number"
+	1    6550 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LV07A U1
+U 3 1 6082436F
+P 7250 4750
+F 0 "U1" H 7300 5067 50  0000 C CNN
+F 1 "SN74LV07ADR" H 7300 4976 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7250 4550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07A.pdf" H 7250 4750 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V 14SOIC" H 7250 4750 50  0001 C CNN "Description"
+F 5 "SN74LV07ADR" H 7250 4750 50  0001 C CNN "Part Number"
+	3    7250 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4500 6550 4750
+Wire Wire Line
+	6550 4750 7000 4750
+Wire Wire Line
+	6550 3900 6550 3650
+$Comp
+L Device:R_Small R32
+U 1 1 608492AC
+P 6850 3650
+F 0 "R32" V 6750 3650 50  0000 C CNN
+F 1 "5.1K" V 6950 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6850 3650 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 6850 3650 50  0001 C CNN
+F 4 "RES 5.1K OHM 1% 1/16W 0402" H 6850 3650 50  0001 C CNN "Description"
+F 5 "CRCW04025K10FKEDC" H 6850 3650 50  0001 C CNN "Part Number"
+F 6 "1%" H 6850 3650 50  0001 C CNN "Tolerance"
+	1    6850 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3650 6550 3650
+Wire Wire Line
+	6950 3650 7100 3650
+Wire Wire Line
+	7100 3650 7100 3500
+Text GLabel 7100 3500 1    50   Input ~ 0
+VCC_PLL
+Text GLabel 6550 3300 1    50   Input ~ 0
+LD
+Wire Wire Line
+	6550 3300 6550 3650
+Connection ~ 6550 3650
+$Comp
+L Device:LED D1
+U 1 1 60883873
+P 7850 5100
+F 0 "D1" V 7889 4982 50  0000 R CNN
+F 1 "LED" V 7798 4982 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7850 5100 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 7850 5100 50  0001 C CNN
+F 4 "LED GREEN DIFFUSED 0603 SMD" H 7850 5100 50  0001 C CNN "Description"
+F 5 "SML-D12P8WT86" H 7850 5100 50  0001 C CNN "Part Number"
+	1    7850 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 4750 7850 4750
+Wire Wire Line
+	7850 4750 7850 4950
+$Comp
+L power:GND #PWR039
+U 1 1 60898188
+P 7850 5400
+F 0 "#PWR039" H 7850 5150 50  0001 C CNN
+F 1 "GND" H 7855 5227 50  0000 C CNN
+F 2 "" H 7850 5400 50  0001 C CNN
+F 3 "" H 7850 5400 50  0001 C CNN
+	1    7850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5250 7850 5400
+$Comp
+L Device:R_Small R33
+U 1 1 608AC87F
+P 7850 4350
+F 0 "R33" H 7909 4396 50  0000 L CNN
+F 1 "5.1K" H 7909 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7850 4350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 7850 4350 50  0001 C CNN
+F 4 "RES 5.1K OHM 1% 1/16W 0402" H 7850 4350 50  0001 C CNN "Description"
+F 5 "CRCW04025K10FKEDC" H 7850 4350 50  0001 C CNN "Part Number"
+F 6 "1%" H 7850 4350 50  0001 C CNN "Tolerance"
+	1    7850 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4450 7850 4750
+Connection ~ 7850 4750
+Text GLabel 7850 4000 1    50   Input ~ 0
+VCC_PLL
+Wire Wire Line
+	7850 4250 7850 4000
+Wire Wire Line
+	5800 4750 6100 4750
+Connection ~ 6550 4750
+$Comp
+L Device:R_Small R26
+U 1 1 608FD11F
+P 6100 5200
+F 0 "R26" V 5904 5200 50  0000 C CNN
+F 1 "open" V 5995 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6100 5200 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20008/dcrcw.pdf" H 6100 5200 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/16W 0402" H 6100 5200 50  0001 C CNN "Description"
+F 5 "CRCW04020000ZSTD" H 6100 5200 50  0001 C CNN "Part Number"
+F 6 "1%" H 6100 5200 50  0001 C CNN "Tolerance"
+	1    6100 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 5200 5800 5200
+Text GLabel 6350 5200 2    50   Input ~ 0
+VCC_PLL
+Wire Wire Line
+	6350 5200 6200 5200
+Wire Wire Line
+	6650 1750 6650 1850
+Text GLabel 3100 2200 2    50   Input ~ 0
+VCC_PLL
+$Comp
+L power:+5V #PWR037
+U 1 1 6100B931
+P 6400 1750
+F 0 "#PWR037" H 6400 1600 50  0001 C CNN
+F 1 "+5V" V 6415 1878 50  0000 L CNN
+F 2 "" H 6400 1750 50  0001 C CNN
+F 3 "" H 6400 1750 50  0001 C CNN
+	1    6400 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Polarized_Small C30
+U 1 1 611B8552
+P 6650 1950
+F 0 "C30" H 6738 2041 50  0000 L CNN
+F 1 "10uF" H 6738 1950 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F" H 6650 1950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/taj-776811.pdf" H 6650 1950 50  0001 C CNN
+F 4 "Tantalum Capacitors - Solid SMD 16V 10uF 10% 2312 ESR = 2 Ohm" H 6650 1950 50  0001 C CNN "Description"
+F 5 "16V" H 6738 1859 50  0000 L CNN "Voltage"
+F 6 "10%" H 6650 1950 50  0001 C CNN "Tolerance"
+F 7 "TAJC106K016SNJV" H 6650 1950 50  0001 C CNN "Part Number"
+	1    6650 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1750 6650 1750
+Connection ~ 7550 1750
+Connection ~ 6650 1750
+Wire Wire Line
+	6650 1750 7100 1750
+$Comp
+L Device:C_Small C31
+U 1 1 611DBCE3
+P 7100 1950
+F 0 "C31" H 7192 1996 50  0000 L CNN
+F 1 "2.2uF" H 7192 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7100 1950 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 7100 1950 50  0001 C CNN
+F 4 "GRM033R61A225K" H 7100 1950 50  0001 C CNN "Part Number"
+F 5 "10%" H 7100 1950 50  0001 C CNN "Tolerance"
+F 6 "10V" H 7100 1950 50  0001 C CNN "Voltage"
+F 7 "CAP CER 2.2UF 10V X5R 0201" H 7100 1950 50  0001 C CNN "Description"
+	1    7100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1850 7100 1750
+Connection ~ 7100 1750
+Wire Wire Line
+	7100 1750 7550 1750
+Wire Wire Line
+	7100 2050 7100 2100
+$Comp
+L power:GND #PWR040
+U 1 1 611FD58E
+P 7100 2100
+F 0 "#PWR040" H 7100 1850 50  0001 C CNN
+F 1 "GND" H 7105 1927 50  0000 C CNN
+F 2 "" H 7100 2100 50  0001 C CNN
+F 3 "" H 7100 2100 50  0001 C CNN
+	1    7100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6120F052
+P 5850 6100
+F 0 "TP5" H 5908 6218 50  0000 L CNN
+F 1 "VTUNE" H 5908 6127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6050 6100 50  0001 C CNN
+F 3 "~" H 6050 6100 50  0001 C CNN
+	1    5850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6150 5850 6150
+Wire Wire Line
+	5850 6100 5850 6150
+Connection ~ 5850 6150
+Wire Wire Line
+	5850 6150 6350 6150
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61252060
+P 6100 4750
+F 0 "TP4" V 6054 4938 50  0000 L CNN
+F 1 "LD" V 6145 4938 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6300 4750 50  0001 C CNN
+F 3 "~" H 6300 4750 50  0001 C CNN
+	1    6100 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4450 2    50   Input ~ 0
+RF_EN
+$Comp
+L Connector:TestPoint TP2
+U 1 1 6129B681
+P 4000 4100
+F 0 "TP2" V 4195 4172 50  0000 C CNN
+F 1 "MUX_OUT" V 4104 4172 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4200 4100 50  0001 C CNN
+F 3 "~" H 4200 4100 50  0001 C CNN
+	1    4000 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 1850 4150 3700
+Wire Wire Line
+	4000 4100 4150 4100
+Connection ~ 4150 4100
+Wire Wire Line
+	4150 4100 4150 3700
+$Comp
+L Connector:TestPoint TP1
+U 1 1 612BFC07
+P 1100 4750
+F 0 "TP1" V 1295 4822 50  0000 C CNN
+F 1 "TestPoint" V 1204 4822 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1300 4750 50  0001 C CNN
+F 3 "~" H 1300 4750 50  0001 C CNN
+	1    1100 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 4750 1350 4750
+Wire Wire Line
+	1350 4750 1350 4400
+Connection ~ 1350 4400
+Wire Wire Line
+	1350 4400 1450 4400
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6127743D
+P 5200 4450
+F 0 "TP3" H 5350 4550 50  0000 C CNN
+F 1 "RF_EN" H 5400 4650 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5400 4450 50  0001 C CNN
+F 3 "~" H 5400 4450 50  0001 C CNN
+	1    5200 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LV07A U1
+U 7 1 603D0D84
+P 2600 2200
+F 0 "U1" V 2850 2350 50  0000 L CNN
+F 1 "SN74LV07ADR" V 2350 1900 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2600 2000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV07A.pdf" H 2600 2200 50  0001 C CNN
+F 4 "IC BUF NON-INVERT 5.5V 14SOIC" H 2600 2200 50  0001 C CNN "Description"
+F 5 "SN74LV07ADR" H 2600 2200 50  0001 C CNN "Part Number"
+	7    2600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 6104AAF7
+P 1950 2350
+F 0 "#PWR06" H 1950 2100 50  0001 C CNN
+F 1 "GND" H 1955 2177 50  0000 C CNN
+F 2 "" H 1950 2350 50  0001 C CNN
+F 3 "" H 1950 2350 50  0001 C CNN
+	1    1950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2200 1950 2200
+Wire Wire Line
+	1950 2200 1950 2350
+Text GLabel 8100 7750 2    50   Input ~ 0
+MAX2870_CLK
+Text GLabel 8100 7850 2    50   Input ~ 0
+MAX2870_DATA
+Text GLabel 8100 7950 2    50   Input ~ 0
+MAX2870_LE
+Text GLabel 8100 8050 2    50   Input ~ 0
+MAX2870_CE
+Text GLabel 7600 7850 0    50   Input ~ 0
+MAX2870_MUX
+Text GLabel 7600 7750 0    50   Input ~ 0
+LD
+Text GLabel 8100 8250 2    50   Input ~ 0
+PHASE_ADJ
+Text GLabel 8100 8150 2    50   Input ~ 0
+RF_EN
+$Comp
+L power:GND #PWR054
+U 1 1 612810B7
+P 8000 9750
+F 0 "#PWR054" H 8000 9500 50  0001 C CNN
+F 1 "GND" H 8005 9577 50  0000 C CNN
+F 2 "" H 8000 9750 50  0001 C CNN
+F 3 "" H 8000 9750 50  0001 C CNN
+	1    8000 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:RFShield_TwoPieces J8
+U 1 1 61283278
+P 8000 9350
+F 0 "J8" H 8730 9414 50  0000 L CNN
+F 1 "BMI-S-205" H 8730 9323 50  0000 L CNN
+F 2 "RF_Shielding:Laird_Technologies_BMI-S-205-F_38.10x25.40mm" H 8000 9250 50  0001 C CNN
+F 3 "~" H 8000 9250 50  0001 C CNN
+	1    8000 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J7
+U 1 1 6128DE98
+P 7800 7950
+F 0 "J7" H 7850 8300 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 8150 7500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 7800 7950 50  0001 C CNN
+F 3 "~" H 7800 7950 50  0001 C CNN
+	1    7800 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 60565C44
+P 2700 8100
+F 0 "R8" V 2504 8100 50  0000 C CNN
+F 1 "240R" V 2595 8100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2700 8100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2700 8100 50  0001 C CNN
+F 4 "RES SMD 240 OHM 5% 1/16W 0402" H 2700 8100 50  0001 C CNN "Description"
+F 5 "5%" H 2700 8100 50  0001 C CNN "Tolerance"
+F 6 "CRCW0402240RJNED" H 2700 8100 50  0001 C CNN "Part Number"
+	1    2700 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6150B090
+P 3700 7750
+F 0 "#PWR0105" H 3700 7500 50  0001 C CNN
+F 1 "GND" H 3705 7577 50  0000 C CNN
+F 2 "" H 3700 7750 50  0001 C CNN
+F 3 "" H 3700 7750 50  0001 C CNN
+	1    3700 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6150BB77
+P 4000 7750
+F 0 "#PWR0106" H 4000 7500 50  0001 C CNN
+F 1 "GND" H 4005 7577 50  0000 C CNN
+F 2 "" H 4000 7750 50  0001 C CNN
+F 3 "" H 4000 7750 50  0001 C CNN
+	1    4000 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 6150C0C2
+P 1850 6700
+F 0 "#PWR0107" H 1850 6450 50  0001 C CNN
+F 1 "GND" H 1855 6527 50  0000 C CNN
+F 2 "" H 1850 6700 50  0001 C CNN
+F 3 "" H 1850 6700 50  0001 C CNN
+	1    1850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 6150C598
+P 2200 6700
+F 0 "#PWR0108" H 2200 6450 50  0001 C CNN
+F 1 "GND" H 2205 6527 50  0000 C CNN
+F 2 "" H 2200 6700 50  0001 C CNN
+F 3 "" H 2200 6700 50  0001 C CNN
+	1    2200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6150CFA4
+P 3500 4200
+F 0 "#PWR0110" H 3500 3950 50  0001 C CNN
+F 1 "GND" H 3505 4027 50  0000 C CNN
+F 2 "" H 3500 4200 50  0001 C CNN
+F 3 "" H 3500 4200 50  0001 C CNN
+	1    3500 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 6600 5900 6600
+Wire Wire Line
+	6000 6950 5900 6950
+Wire Wire Line
+	5500 6600 5700 6600
+Wire Wire Line
+	5500 6950 5500 6600
+Wire Wire Line
+	5500 6950 5700 6950
+$Comp
+L Device:C_Small C9
+U 1 1 60224CAD
+P 5800 6600
+F 0 "C9" V 5600 6600 50  0000 C CNN
+F 1 "0.01uF" V 5700 6600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 6600 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 5800 6600 50  0001 C CNN
+F 4 "GRM155R71C103K" H 5800 6600 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 5800 6600 50  0001 C CNN "Description"
+F 6 "10%" H 5800 6600 50  0001 C CNN "Tolerance"
+F 7 "16V" H 5800 6600 50  0001 C CNN "Voltage"
+	1    5800 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 602246D9
+P 5800 6950
+F 0 "C7" V 5650 6950 50  0000 C CNN
+F 1 "100pF" V 5900 6950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 6950 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 5800 6950 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 5800 6950 50  0001 C CNN "Part Number"
+F 5 "5%" H 5800 6950 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 5800 6950 50  0001 C CNN "Description"
+F 7 "50V" H 5800 6950 50  0001 C CNN "Voltage"
+	1    5800 6950
+	0    1    1    0   
+$EndComp
+Text GLabel 5650 7200 2    50   Input ~ 0
+VCC_VCO
+$Comp
+L power:GND #PWR0101
+U 1 1 6130B247
+P 5200 7750
+F 0 "#PWR0101" H 5200 7500 50  0001 C CNN
+F 1 "GND" H 5205 7577 50  0000 C CNN
+F 2 "" H 5200 7750 50  0001 C CNN
+F 3 "" H 5200 7750 50  0001 C CNN
+	1    5200 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6130B24D
+P 4900 7750
+F 0 "#PWR0102" H 4900 7500 50  0001 C CNN
+F 1 "GND" H 4905 7577 50  0000 C CNN
+F 2 "" H 4900 7750 50  0001 C CNN
+F 3 "" H 4900 7750 50  0001 C CNN
+	1    4900 7750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 7450
+Wire Wire Line
+	5200 7450 5350 7450
+Wire Wire Line
+	5200 7450 5200 7550
+Wire Wire Line
+	4900 7450 5200 7450
+Wire Wire Line
+	4900 7550 4900 7450
+$Comp
+L Device:C_Small C4
+U 1 1 6130B260
+P 5200 7650
+F 0 "C4" H 5250 7550 50  0000 C CNN
+F 1 "0.01uF" V 5300 7750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5200 7650 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 5200 7650 50  0001 C CNN
+F 4 "GRM155R71C103K" H 5200 7650 50  0001 C CNN "Part Number"
+F 5 "CAP CER 10000PF 16V X7R 0402" H 5200 7650 50  0001 C CNN "Description"
+F 6 "10%" H 5200 7650 50  0001 C CNN "Tolerance"
+F 7 "16V" H 5200 7650 50  0001 C CNN "Voltage"
+	1    5200 7650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 6130B26A
+P 4900 7650
+F 0 "C2" H 5000 7550 50  0000 C CNN
+F 1 "100pF" V 5000 7750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4900 7650 50  0001 C CNN
+F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4900 7650 50  0001 C CNN
+F 4 "C1005C0G1H101K" H 4900 7650 50  0001 C CNN "Part Number"
+F 5 "5%" H 4900 7650 50  0001 C CNN "Tolerance"
+F 6 "CAP CER 100PF 50V C0G 0402" H 4900 7650 50  0001 C CNN "Description"
+F 7 "50V" H 4900 7650 50  0001 C CNN "Voltage"
+	1    4900 7650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 7200 4900 7450
+Connection ~ 4900 7450
+Text GLabel 11450 850  2    50   Input ~ 0
+VCC_VCO
+Text GLabel 5350 7450 2    50   Input ~ 0
+VCC_VCO
+Wire Wire Line
+	3500 7450 3700 7450
+Connection ~ 3700 7450
+Wire Wire Line
+	4000 7200 4000 7450
+Wire Wire Line
+	1300 6150 1300 6650
+Wire Wire Line
+	2450 6450 2450 8100
+Wire Wire Line
+	6350 6150 6350 8100
+Connection ~ 4000 7450
+Wire Wire Line
+	2950 6900 3100 6900
+Wire Wire Line
+	3100 6900 3100 6300
+Wire Wire Line
+	2200 6300 3100 6300
+Connection ~ 3100 6300
+Wire Wire Line
+	3100 6300 3500 6300
+Wire Wire Line
+	5250 6600 5350 6600
+Connection ~ 5500 6600
+Wire Wire Line
+	5350 6600 5350 7200
+Wire Wire Line
+	5350 7200 5650 7200
+Connection ~ 5350 6600
+Wire Wire Line
+	5350 6600 5500 6600
+$Comp
+L power:GND #PWR0103
+U 1 1 61641208
+P 6000 6950
+F 0 "#PWR0103" H 6000 6700 50  0001 C CNN
+F 1 "GND" V 6005 6822 50  0000 R CNN
+F 2 "" H 6000 6950 50  0001 C CNN
+F 3 "" H 6000 6950 50  0001 C CNN
+	1    6000 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 616A2564
+P 6000 6600
+F 0 "#PWR0104" H 6000 6350 50  0001 C CNN
+F 1 "GND" V 6005 6472 50  0000 R CNN
+F 2 "" H 6000 6600 50  0001 C CNN
+F 3 "" H 6000 6600 50  0001 C CNN
+	1    6000 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 4200 3600 4200
+Connection ~ 3600 4200
+Wire Wire Line
+	3600 4600 3850 4600
+Wire Wire Line
+	3850 4600 3850 4950
+Connection ~ 3850 4600
+Connection ~ 6100 4750
+Wire Wire Line
+	6100 4750 6550 4750
+Wire Wire Line
+	5800 4750 5800 5200
+Wire Wire Line
+	5800 4750 4900 4750
+Wire Wire Line
+	4900 4750 4900 4950
+Connection ~ 5800 4750
+Wire Wire Line
+	5300 4450 5200 4450
+Connection ~ 5200 4450
+Wire Wire Line
+	5200 4450 4750 4450
+Wire Wire Line
+	4750 4450 4750 4950
+$Comp
+L power:GND #PWR0109
+U 1 1 6185684C
+P 4450 3750
+F 0 "#PWR0109" H 4450 3500 50  0001 C CNN
+F 1 "GND" H 4455 3577 50  0000 C CNN
+F 2 "" H 4450 3750 50  0001 C CNN
+F 3 "" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 3750 4450 3800
+Connection ~ 4450 3800
+Wire Wire Line
+	4450 3800 4450 3900
+Wire Wire Line
+	4450 4200 4800 4200
+Wire Wire Line
+	4800 4200 5000 4200
+Connection ~ 4800 4200
+Wire Wire Line
+	4450 4200 4450 4950
+Connection ~ 4450 4200
+Wire Wire Line
+	3450 4600 3600 4600
+Connection ~ 3600 4600
+Wire Wire Line
+	1300 6150 3500 6150
+Wire Wire Line
+	1250 6000 3300 6000
+Wire Wire Line
+	2550 5850 3100 5850
+Wire Wire Line
+	2350 5700 2850 5700
+Wire Wire Line
+	3500 5550 2700 5550
+$Comp
+L Connector:TestPoint TP6
+U 1 1 6145F178
+P 2700 5200
+F 0 "TP6" H 2758 5318 50  0000 L CNN
+F 1 "CLK" H 2758 5227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2900 5200 50  0001 C CNN
+F 3 "~" H 2900 5200 50  0001 C CNN
+	1    2700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5200 2700 5550
+Connection ~ 2700 5550
+Wire Wire Line
+	2700 5550 2150 5550
+$Comp
+L Connector:TestPoint TP7
+U 1 1 61476252
+P 2850 5400
+F 0 "TP7" H 2908 5518 50  0000 L CNN
+F 1 "DATA" H 2908 5427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3050 5400 50  0001 C CNN
+F 3 "~" H 3050 5400 50  0001 C CNN
+	1    2850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5400 2850 5700
+Connection ~ 2850 5700
+Wire Wire Line
+	2850 5700 3500 5700
+$Comp
+L Connector:TestPoint TP8
+U 1 1 6148B17D
+P 3100 5200
+F 0 "TP8" H 3158 5318 50  0000 L CNN
+F 1 "LE" H 3158 5227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3300 5200 50  0001 C CNN
+F 3 "~" H 3300 5200 50  0001 C CNN
+	1    3100 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5200 3100 5850
+Connection ~ 3100 5850
+Wire Wire Line
+	3100 5850 3500 5850
+$Comp
+L Connector:TestPoint TP9
+U 1 1 614A197A
+P 3300 5400
+F 0 "TP9" H 3358 5518 50  0000 L CNN
+F 1 "CE" H 3358 5427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3500 5400 50  0001 C CNN
+F 3 "~" H 3500 5400 50  0001 C CNN
+	1    3300 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5400 3300 6000
+Connection ~ 3300 6000
+Wire Wire Line
+	3300 6000 3500 6000
+$Comp
+L Connector:TestPoint TP10
+U 1 1 614BA8A0
+P 1050 6650
+F 0 "TP10" V 1245 6722 50  0000 C CNN
+F 1 "SW" V 1154 6722 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1250 6650 50  0001 C CNN
+F 3 "~" H 1250 6650 50  0001 C CNN
+	1    1050 6650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 6650 1300 6650
+Connection ~ 1300 6650
+Wire Wire Line
+	1300 6650 1300 9000
+Wire Wire Line
+	10750 2850 10750 2600
+Wire Wire Line
+	11200 2600 11200 2850
+Wire Wire Line
+	10700 1350 10700 1100
+Wire Wire Line
+	11150 1100 11150 1350
+Wire Wire Line
+	10750 2600 11200 2600
+Wire Wire Line
+	10300 2350 10750 2350
+Wire Wire Line
+	10750 2600 10750 2350
+Connection ~ 10750 2600
+Connection ~ 10750 2350
+Wire Wire Line
+	10750 2350 11500 2350
+Wire Wire Line
+	10700 1100 11150 1100
+Wire Wire Line
+	10250 850  10700 850 
+Wire Wire Line
+	10700 1100 10700 850 
+Connection ~ 10700 1100
+Connection ~ 10700 850 
+Wire Wire Line
+	10700 850  11450 850 
+$Comp
+L power:GND #PWR0111
+U 1 1 6152775A
+P 4950 3800
+F 0 "#PWR0111" H 4950 3550 50  0001 C CNN
+F 1 "GND" V 4955 3672 50  0000 R CNN
+F 2 "" H 4950 3800 50  0001 C CNN
+F 3 "" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 613D8987
+P 4950 1650
+F 0 "#PWR0112" H 4950 1400 50  0001 C CNN
+F 1 "GND" V 4955 1522 50  0000 R CNN
+F 2 "" H 4950 1650 50  0001 C CNN
+F 3 "" H 4950 1650 50  0001 C CNN
+	1    4950 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J9
+U 1 1 613FC185
+P 9550 8600
+F 0 "J9" H 9578 8576 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9578 8485 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 9550 8600 50  0001 C CNN
+F 3 "~" H 9550 8600 50  0001 C CNN
+	1    9550 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 613FD8CD
+P 9250 8450
+F 0 "#PWR0113" H 9250 8300 50  0001 C CNN
+F 1 "+5V" H 9150 8600 50  0000 L CNN
+F 2 "" H 9250 8450 50  0001 C CNN
+F 3 "" H 9250 8450 50  0001 C CNN
+	1    9250 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 8700 9250 8700
+Wire Wire Line
+	9250 8700 9250 8800
+$Comp
+L power:GND #PWR?
+U 1 1 623E5157
+P 9250 8800
+F 0 "#PWR?" H 9250 8550 50  0001 C CNN
+F 1 "GND" H 9255 8627 50  0000 C CNN
+F 2 "" H 9250 8800 50  0001 C CNN
+F 3 "" H 9250 8800 50  0001 C CNN
+	1    9250 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 8600 9250 8450
+Wire Wire Line
+	9250 8600 9350 8600
+$EndSCHEMATC

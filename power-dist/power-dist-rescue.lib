@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MP1584-Regulator_Switching
+#
+DEF MP1584-Regulator_Switching U 0 40 Y Y 1 F N
+F0 "U" -300 500 50 H V C CNN
+F1 "MP1584-Regulator_Switching" 200 500 50 H V C CNN
+F2 "Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm" 1100 -500 50 H I C CNN
+F3 "https://www.monolithicpower.com/pub/media/document/MP1584_r1.0.pdf" 1500 -600 50 H I C CNN
+DRAW
+S -350 450 350 -450 0 1 0 N
+S 500 -400 500 -400 0 1 0 N
+X SW 1 550 350 200 L 50 50 1 1 B
+X EN 2 -550 0 200 R 50 50 1 1 I
+X COMP 3 550 -350 200 L 50 50 1 1 O
+X FB 4 550 0 200 L 50 50 1 1 I
+X GND 5 0 -650 200 U 50 50 1 1 O
+X FREQ 6 -550 -350 200 R 50 50 1 1 O
+X VIN 7 -550 350 200 R 50 50 1 1 I
+X BST 8 0 650 200 D 50 50 1 1 O
+X GND 9 -550 -150 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

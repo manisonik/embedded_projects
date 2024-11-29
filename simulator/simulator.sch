@@ -1,0 +1,163 @@
+EESchema Schematic File Version 4
+LIBS:simulator-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:0 #GND01
+U 1 1 5D137313
+P 2750 3400
+F 0 "#GND01" H 2750 3300 50  0001 C CNN
+F 1 "0" H 2750 3489 50  0000 C CNN
+F 2 "" H 2750 3400 50  0001 C CNN
+F 3 "~" H 2750 3400 50  0001 C CNN
+	1    2750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_DGS Q1
+U 1 1 5D13C3CF
+P 3700 2300
+F 0 "Q1" V 4043 2300 50  0000 C CNN
+F 1 "Q_PMOS_DGS" V 3952 2300 50  0000 C CNN
+F 2 "" H 3900 2400 50  0001 C CNN
+F 3 "~" H 3700 2300 50  0001 C CNN
+	1    3700 2300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2750 2200 3500 2200
+Wire Wire Line
+	3700 2500 3700 2650
+Wire Wire Line
+	3700 2650 3850 2650
+$Comp
+L Device:R_Small R1
+U 1 1 5D13FA3E
+P 3950 2650
+F 0 "R1" V 3754 2650 50  0000 C CNN
+F 1 "10k" V 3845 2650 50  0000 C CNN
+F 2 "" H 3950 2650 50  0001 C CNN
+F 3 "~" H 3950 2650 50  0001 C CNN
+	1    3950 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 2650 4150 2650
+Wire Wire Line
+	4150 3000 2750 3000
+Wire Wire Line
+	4150 2650 4150 3000
+Connection ~ 2750 3000
+Wire Wire Line
+	2750 3000 2750 3400
+Wire Wire Line
+	4150 3000 4800 3000
+Wire Wire Line
+	4800 3000 4800 2650
+Connection ~ 4150 3000
+$Comp
+L Device:R_Small R2
+U 1 1 5D140824
+P 4800 2550
+F 0 "R2" H 4859 2596 50  0000 L CNN
+F 1 "1k" H 4859 2505 50  0000 L CNN
+F 2 "" H 4800 2550 50  0001 C CNN
+F 3 "~" H 4800 2550 50  0001 C CNN
+	1    4800 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2200 4150 2200
+$Comp
+L Device:D_Schottky D2
+U 1 1 5D140F99
+P 4300 2200
+F 0 "D2" H 4300 1984 50  0000 C CNN
+F 1 "D_Schottky" H 4300 2075 50  0000 C CNN
+F 2 "" H 4300 2200 50  0001 C CNN
+F 3 "~" H 4300 2200 50  0001 C CNN
+F 4 "R" H 4300 2200 50  0001 C CNN "Spice_Primitive"
+F 5 "0.3" H 4300 2200 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4300 2200 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4300 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 5D141496
+P 4300 1800
+F 0 "D1" H 4300 1584 50  0000 C CNN
+F 1 "D_Schottky" H 4300 1675 50  0000 C CNN
+F 2 "" H 4300 1800 50  0001 C CNN
+F 3 "~" H 4300 1800 50  0001 C CNN
+F 4 "R" H 4300 1800 50  0001 C CNN "Spice_Primitive"
+F 5 "0.3" H 4300 1800 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4300 1800 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4300 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 1800 4550 1800
+Wire Wire Line
+	4550 1800 4550 2200
+Wire Wire Line
+	4550 2200 4450 2200
+Wire Wire Line
+	4800 2450 4800 1800
+Wire Wire Line
+	4800 1800 4550 1800
+Connection ~ 4550 1800
+Wire Wire Line
+	4150 1800 3350 1800
+Wire Wire Line
+	3350 1800 3350 2650
+Wire Wire Line
+	3350 2650 3700 2650
+Connection ~ 3700 2650
+Wire Wire Line
+	3350 1800 2750 1800
+Wire Wire Line
+	2750 1800 2750 1550
+Connection ~ 3350 1800
+$Comp
+L pspice:VSOURCE V2
+U 1 1 5D1428C3
+P 2750 1250
+F 0 "V2" H 2384 1204 50  0000 R CNN
+F 1 "VSOURCE" H 2384 1295 50  0000 R CNN
+F 2 "" H 2750 1250 50  0001 C CNN
+F 3 "~" H 2750 1250 50  0001 C CNN
+F 4 "V" H 2750 1250 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 5" H 2750 1250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2750 1250 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    2750 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:0 #GND02
+U 1 1 5D143787
+P 2750 650
+F 0 "#GND02" H 2750 550 50  0001 C CNN
+F 1 "0" H 2750 739 50  0000 C CNN
+F 2 "" H 2750 650 50  0001 C CNN
+F 3 "~" H 2750 650 50  0001 C CNN
+	1    2750 650 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 650  2750 950 
+Wire Wire Line
+	2750 2200 2750 3000
+$EndSCHEMATC

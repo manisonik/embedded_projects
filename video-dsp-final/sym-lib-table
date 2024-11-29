@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name video-transceiver-rescue)(type Legacy)(uri "C:/Users/hooke/Documents/Workspace/Drone/Kicad Projects/video-transceiver/video-transceiver-rescue.lib")(options "")(descr ""))
+  (lib (name video-dsp-final-rescue)(type Legacy)(uri ${KIPRJMOD}/video-dsp-final-rescue.lib)(options "")(descr ""))
+)

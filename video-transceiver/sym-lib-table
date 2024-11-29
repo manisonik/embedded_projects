@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name video-transceiver-rescue)(type Legacy)(uri ${KIPRJMOD}/video-transceiver-rescue.lib)(options "")(descr ""))
+)

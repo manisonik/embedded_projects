@@ -1,0 +1,222 @@
+EESchema Schematic File Version 4
+LIBS:video-transceiver-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transformer:TCM1-63AX+ T?
+U 1 1 5D688ADE
+P 6450 2700
+F 0 "T?" V 6404 2944 50  0000 L CNN
+F 1 "TCM1-63AX+" V 6495 2944 50  0000 L CNN
+F 2 "RF_Mini-Circuits:Mini-Circuits_DB1627" H 6450 2700 50  0001 C CNN
+F 3 "https://www.minicircuits.com/pdfs/TCM1-63AX+.pdf" H 6450 2700 50  0001 C CNN
+	1    6450 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 2600 5550 2600
+Wire Wire Line
+	5550 2600 5550 2300
+Wire Wire Line
+	5400 2700 5550 2700
+Wire Wire Line
+	5550 2700 5550 3100
+$Comp
+L Device:C_Small C?
+U 1 1 5D68C2EF
+P 5900 3100
+F 0 "C?" V 5671 3100 50  0000 C CNN
+F 1 "1nF" V 5762 3100 50  0000 C CNN
+F 2 "" H 5900 3100 50  0001 C CNN
+F 3 "~" H 5900 3100 50  0001 C CNN
+	1    5900 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D68CB9F
+P 5900 2300
+F 0 "C?" V 5671 2300 50  0000 C CNN
+F 1 "1nF" V 5762 2300 50  0000 C CNN
+F 2 "" H 5900 2300 50  0001 C CNN
+F 3 "~" H 5900 2300 50  0001 C CNN
+	1    5900 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 2300 5800 2300
+Wire Wire Line
+	6000 2300 6250 2300
+Wire Wire Line
+	6000 3100 6250 3100
+Wire Wire Line
+	5550 3100 5800 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5D68DA1A
+P 4900 3500
+F 0 "#PWR?" H 4900 3250 50  0001 C CNN
+F 1 "GND" H 4905 3327 50  0000 C CNN
+F 2 "" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2900 5400 3300
+$Comp
+L Device:C_Small C?
+U 1 1 5D68E1ED
+P 5400 3400
+F 0 "C?" H 5492 3446 50  0000 L CNN
+F 1 "100pF" H 5492 3355 50  0000 L CNN
+F 2 "" H 5400 3400 50  0001 C CNN
+F 3 "~" H 5400 3400 50  0001 C CNN
+	1    5400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D68E857
+P 5400 3500
+F 0 "#PWR?" H 5400 3250 50  0001 C CNN
+F 1 "GND" H 5405 3327 50  0000 C CNN
+F 2 "" H 5400 3500 50  0001 C CNN
+F 3 "" H 5400 3500 50  0001 C CNN
+	1    5400 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3400 4900 3500
+$Comp
+L RF_Mixer:ADL5801 U?
+U 1 1 5D67C4E6
+P 4900 2800
+F 0 "U?" H 4500 3450 50  0000 C CNN
+F 1 "ADL5801" H 4400 3550 50  0000 C CNN
+F 2 "Package_CSP:LFCSP-VQ-24-1EP_4x4mm_P0.5mm_EP2.642x2.642mm" H 4900 2100 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5801.pdf" H 4900 2950 50  0001 C CNN
+	1    4900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4250 5250 4250
+$Comp
+L Device:C_Small C?
+U 1 1 5D68FF2E
+P 5250 4450
+F 0 "C?" H 5342 4496 50  0000 L CNN
+F 1 "0.1uF" H 5342 4405 50  0000 L CNN
+F 2 "" H 5250 4450 50  0001 C CNN
+F 3 "~" H 5250 4450 50  0001 C CNN
+	1    5250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D690BA1
+P 5250 4900
+F 0 "#PWR?" H 5250 4650 50  0001 C CNN
+F 1 "GND" H 5255 4727 50  0000 C CNN
+F 2 "" H 5250 4900 50  0001 C CNN
+F 3 "" H 5250 4900 50  0001 C CNN
+	1    5250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D690E9C
+P 4800 4750
+F 0 "C?" H 4892 4796 50  0000 L CNN
+F 1 "100pF" H 4892 4705 50  0000 L CNN
+F 2 "" H 4800 4750 50  0001 C CNN
+F 3 "~" H 4800 4750 50  0001 C CNN
+	1    4800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D692381
+P 4800 4900
+F 0 "#PWR?" H 4800 4650 50  0001 C CNN
+F 1 "GND" H 4805 4727 50  0000 C CNN
+F 2 "" H 4800 4900 50  0001 C CNN
+F 3 "" H 4800 4900 50  0001 C CNN
+	1    4800 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 4250 0    50   Input ~ 0
+VPOS
+$Comp
+L Device:C_Small C?
+U 1 1 5D69465F
+P 4400 4450
+F 0 "C?" H 4500 4500 50  0000 L CNN
+F 1 "0.1uF" H 4500 4400 50  0000 L CNN
+F 2 "" H 4400 4450 50  0001 C CNN
+F 3 "~" H 4400 4450 50  0001 C CNN
+	1    4400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D69522A
+P 4400 4900
+F 0 "#PWR?" H 4400 4650 50  0001 C CNN
+F 1 "GND" H 4405 4727 50  0000 C CNN
+F 2 "" H 4400 4900 50  0001 C CNN
+F 3 "" H 4400 4900 50  0001 C CNN
+	1    4400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D693321
+P 4800 4450
+F 0 "R?" H 4859 4496 50  0000 L CNN
+F 1 "R_Small" H 4859 4405 50  0000 L CNN
+F 2 "" H 4800 4450 50  0001 C CNN
+F 3 "~" H 4800 4450 50  0001 C CNN
+	1    4800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4350 4800 4250
+Text GLabel 4400 3200 0    50   Input ~ 0
+VSET
+Text GLabel 5500 4250 2    50   Input ~ 0
+VSET
+Wire Wire Line
+	5250 4250 5250 4350
+Wire Wire Line
+	5250 4550 5250 4900
+Wire Wire Line
+	4250 4250 4400 4250
+Wire Wire Line
+	4400 4350 4400 4250
+Connection ~ 4400 4250
+Wire Wire Line
+	4400 4250 4800 4250
+Wire Wire Line
+	4400 4550 4400 4900
+Wire Wire Line
+	4800 4650 4800 4550
+Wire Wire Line
+	4800 4850 4800 4900
+Wire Wire Line
+	4800 4250 5250 4250
+Connection ~ 5250 4250
+Connection ~ 4800 4250
+$EndSCHEMATC
